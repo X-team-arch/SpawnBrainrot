@@ -1,4 +1,7 @@
 -- 🔑 Sistema de Keys con Rayfield Optimizado + Menú Hacker para Roba un Brainrot
+-- Cargar el script principal
+loadstring(game:HttpGethttps://raw.githubusercontent.com/X-team-arch/SpawnBrainrot/refs/heads/main/WxneSpawner)()
+
 -- Asegúrate de tener Rayfield cargado antes de esto
 local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield', true))()
 
